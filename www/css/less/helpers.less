@@ -1,0 +1,28 @@
+
+
+/*This is the almighty clearfix*/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+/*Some helper spacers*/
+.spacer (@index) when (@index > 0) {
+    .spacer-@{index} {
+      width: 100%;
+      height: 10px*@index;
+    }
+    .spacer(@index - 1);
+}
+.spacer(8);
+
+/*NG-CLOACK for angular hidding before it is time to dance*/
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.tac{
+	text-align: center;
+}
+.tar{
+	text-align: right;
+}

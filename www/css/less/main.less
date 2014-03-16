@@ -1,22 +1,95 @@
 @import 'mixins.less';
+@import 'helpers.less';
+@import url(http://fonts.googleapis.com/css?family=News+Cycle|Josefin+Sans|Alegreya+Sans|Sintony|Belleza);
 
-
-/*This is the almighty clearfix*/
-.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-* html .clearfix { zoom: 1; } /* IE6 */
-*:first-child+html .clearfix { zoom: 1; } /* IE7 */
-
-/*Some helper spacers*/
-.spacer (@index) when (@index > 0) {
-    .spacer-@{index} {
-      width: 100%;
-      height: 10px*@index;
-    }
-    .spacer(@index - 1);
+@mainFont: 'News Cycle';
+// @mainFont : 'Josefin Sans';
+// @mainFont : 'Alegreya Sans';
+// @mainFont : 'Sintony';
+// @mainFont : 'Belleza';
+*{
+	font-family: @mainFont;
 }
-.spacer(8);
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+[ng-view]{
+	width: 100%;
+	height: 100%;
+}
+#home{
+	width: 100%;
+	height: 100%;
+	background: url(../img/mainhomebg.png);
+	background-size: cover;
+	h1{
+		color:white;
+		margin-top: 9em;
+	}
+	.buttons {
+		margin-top: 3em;
+		a{
+			padding: 0.5em 1em 1em;
+			border: 2px solid #FFF;
+			color: #FFF;
+			font-weight: bold;
+			text-decoration: none;
+			&:hover{
+				background: white;
+				color:black;
+			}
+		}
+	}
+}
 
-/*NG-CLOACK for angular hidding before it is time to dance*/
-[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-  display: none !important;
+/*PERIODIC TABLE*/
+[mb-periodic-table]{
+	@w:1100px;
+	width: @w;
+	height: auto;
+	margin: 0 auto;
+	.element, .empty{
+		@margin:1px;
+		width: (@w/18)-(@margin*2);
+		height: @w/18;
+		margin: @margin;
+		float: left;
+		box-sizing:border-box;
+	}
+	.element{
+		background: #F8F8F8;
+		position: relative;
+		text-align: center;
+		&.hasData{
+			background: #20E9A9;
+			.transition(all .2s ease-out);
+			&:hover{
+				.transform(scale(1.5));
+				z-index: 10;
+			}
+			.number, .small{
+				color:white;
+				font-weight: bold;
+			}
+		}
+		.number{
+			position: absolute;
+			top: 0.2em;
+			left: 0.2em;
+			color: darken(#F8F8F8, 30%);
+			font-size: .1em;
+		}
+		.name{
+			text-align: center;
+			font-size:10px;
+			margin-top: 0.6em;
+		}
+		.small{
+			margin-top: 0.4em;
+			font-size: 1.5em;
+		}
+	}
 }
