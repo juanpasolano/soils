@@ -23,6 +23,15 @@ app.config([ '$routeProvider',
 /*MAIN CONTROLLER*/
 app.controller('MainCtrl', function($scope) {
   $scope.welcome = 'Hello world! This is HTML5 Boilerplate.';
+  $scope.toggleMenu = function(){
+		var menu = $('#mainMenu');
+		menu.toggleClass('open');
+		if(menu.hasClass('open')){
+			menu.find('.menuBtn').html('&#10060;');
+		}else{
+			menu.find('.menuBtn').html('&#9776;');
+		}
+  };
 });
 
 /*Home controller*/
@@ -55,6 +64,7 @@ app.directive('mbPeriodicTable', function($interpolate, $compile){
 					console.log(_.findWhere(scope.elements, {number:n}));
 				}
 			};
+
 			var buildTable = function(){
 				var template = '<div class="element {{hasData ? "hasData": ""}}" ng-click="clickit({{hasData ? number: null}})">'+
 					'<div class="number">{{number}}</div>'+
@@ -67,11 +77,16 @@ app.directive('mbPeriodicTable', function($interpolate, $compile){
 					var html = $compile(angular.element(interpolateFn(v)))(scope);
 					element.append(html);
 					if(v.number == 1){
-						$(element).append(emptyElems(16));
+						element.append(emptyElems(16));
 					}else if(v.number == 4 || v.number == 12){
-						$(element).append(emptyElems(10));
+						element.append(emptyElems(10));
+					}else if(v.number == 118){
+						element.append(emptyElems(21));
+					}else if(v.number == 71){
+						element.append(emptyElems(3));
 					}
 				});
+				centerTable();
 			};
 			var emptyElems = function(num){
 				var template = '<div class="empty"></div>';
@@ -80,6 +95,12 @@ app.directive('mbPeriodicTable', function($interpolate, $compile){
 					str += template;
 				}
 				return str;
+			};
+			var centerTable =  function(){
+				var eh = $(element).height();
+				var wh = $(window).height();
+				var diff = (wh/2)-(eh/2);
+				$(element).css('margin-top', diff);
 			};
 		}
 	};
@@ -102,6 +123,12 @@ app.factory('DataServices',[ '$http', '$rootScope',
 					angular.forEach(value.elements, function(v, k){
 						elements.push(v);
 					});
+				});
+				angular.forEach(data.lanthanoids, function(value, key){
+					elements.push(value);
+				});
+				angular.forEach(data.actinoids, function(value, key){
+					elements.push(value);
 				});
 				return elements;
 			}

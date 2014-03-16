@@ -19,7 +19,20 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
+
+
+        <div id="mainMenu">
+            <a href="jsvascript:;" ng-click="toggleMenu()" class="menuBtn entypo-font">&#9776;</a>
+            <img src="img/usgsLogo.png" alt="" class="usgslogo">
+            <ul>
+                <li><a href="#/home" ng-click="toggleMenu()">Home</a></li>
+                <li><a href="" ng-click="toggleMenu()">About the project</a></li>
+                <li><a href="" ng-click="toggleMenu()">Mineralogy</a></li>
+                <li><a href="#/periodictable" ng-click="toggleMenu()">Chemestry</a></li>
+                <li><a href="" ng-click="toggleMenu()">Downloads</a></li>
+            </ul>
+        </div>
+
         <div ng-view="" class="clearfix">
 
         </div>
