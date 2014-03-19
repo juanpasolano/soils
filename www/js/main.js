@@ -13,6 +13,10 @@ app.config([ '$routeProvider',
 			templateUrl: 'partials/periodicTable.html',
 			controller: 'PeriodicTableCtrl'
 		})
+		.when('/detail/element/:id', {
+			templateUrl: 'partials/detail.html',
+			controller: 'DetailElementCtrl'
+		})
 		.otherwise({
 			redirectTo:'/home'
 		});
@@ -48,7 +52,7 @@ app.controller('PeriodicTableCtrl', function($scope, DataServices){
 });
 
 /*PERIODIC TABLE DIRECTIVE*/
-app.directive('mbPeriodicTable', function($interpolate, $compile){
+app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 	return {
 		scope: {
 			elements : '=mbPeriodicTable'
@@ -61,6 +65,7 @@ app.directive('mbPeriodicTable', function($interpolate, $compile){
 			});
 			scope.clickit = function(n){
 				if(n){
+					$location.path('/detail/element/'+n);
 					console.log(_.findWhere(scope.elements, {number:n}));
 				}
 			};
@@ -104,6 +109,10 @@ app.directive('mbPeriodicTable', function($interpolate, $compile){
 			};
 		}
 	};
+});
+
+app.controller('DetailElementCtrl', function($scope){
+
 });
 
 /*DATA SERVICES: for getting the data*/

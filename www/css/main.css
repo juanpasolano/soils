@@ -1199,6 +1199,7 @@ a {
   right: 0;
 }
 .detail-view .main-interaction .links .box-link {
+  text-transform: uppercase;
   text-align: center;
   display: block;
   padding: 0.5em 1em 1em;
