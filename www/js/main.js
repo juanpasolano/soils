@@ -118,7 +118,7 @@ app.controller('DetailElementCtrl', function($scope){
 /*DATA SERVICES: for getting the data*/
 app.factory('DataServices',[ '$http', '$rootScope',
 	function($http, $rootScope){
-		var server = 'http://localhost:8000/www/data/';
+		var server = 'http://juanpablosolano.com/usgs/data/';
 		return {
 			getPeriodicTable :  function(){
 				return $http.get(server+'periodicTable.json')
