@@ -1,5 +1,5 @@
 [
- {
+{
 	"number": 3,
 	"name": "Lithium",
 	"small": "Li",
@@ -78,7 +78,7 @@
 		"text": "C_Li_txt.html"
 	}
 },
-  {
+{
 	"number": 4,
 	"name": "Beryllium",
 	"small": "Be",
@@ -157,7 +157,7 @@
 		"text": "C_Be_txt.html"
 	}
 },
-  {
+{
 	"number": 11,
 	"name": "Sodium",
 	"small": "Na",
@@ -236,7 +236,7 @@
 		"text": "C_Na_txt.html"
 	}
 },
-  {
+{
 	"number": 12,
 	"name": "Magnesium",
 	"small": "Mg",
@@ -315,7 +315,7 @@
 		"text": "C_Mg_txt.html"
 	}
 },
-  {
+{
 	"number": 13,
 	"name": "Aluminium",
 	"small": "Al",
@@ -394,7 +394,7 @@
 		"text": "C_Al_txt.html"
 	}
 },
-  {
+{
 	"number": 15,
 	"name": "Phosphorus",
 	"small": "P",
@@ -473,7 +473,7 @@
 		"text": "C_P_txt.html"
 	}
 },
-  {
+{
 	"number": 16,
 	"name": "Sulfur",
 	"small": "S",
@@ -552,7 +552,7 @@
 		"text": "C_S_txt.html"
 	}
 },
-  {
+{
 	"number": 19,
 	"name": "Potassium",
 	"small": "K",
@@ -631,7 +631,7 @@
 		"text": "C_K_txt.html"
 	}
 },
-  {
+{
 	"number": 20,
 	"name": "Calcium",
 	"small": "Ca",
@@ -710,7 +710,7 @@
 		"text": "C_Ca_txt.html"
 	}
 },
-  {
+{
 	"number": 21,
 	"name": "Scandium",
 	"small": "Sc",
@@ -789,7 +789,7 @@
 		"text": "C_Sc_txt.html"
 	}
 },
-  {
+{
 	"number": 22,
 	"name": "Titanium",
 	"small": "Ti",
@@ -868,7 +868,7 @@
 		"text": "C_Ti_txt.html"
 	}
 },
-  {
+{
 	"number": 23,
 	"name": "Vanadium",
 	"small": "V",
@@ -947,7 +947,7 @@
 		"text": "C_V_txt.html"
 	}
 },
-  {
+{
 	"number": 24,
 	"name": "Chromium",
 	"small": "Cr",
@@ -1026,7 +1026,7 @@
 		"text": "C_Cr_txt.html"
 	}
 },
-  {
+{
 	"number": 25,
 	"name": "Manganese",
 	"small": "Mn",
@@ -1105,7 +1105,7 @@
 		"text": "C_Mn_txt.html"
 	}
 },
-  {
+{
 	"number": 26,
 	"name": "Iron",
 	"small": "Fe",
@@ -1184,7 +1184,7 @@
 		"text": "C_Fe_txt.html"
 	}
 },
-  {
+{
 	"number": 27,
 	"name": "Cobalt",
 	"small": "Co",
@@ -1264,85 +1264,85 @@
 	}
 },
 {
-"number": 28,
-"name": "Nickel",
-"small": "Ni",
-"img": "Ni_img.png",
-"kml": "Ni.kmz",
+	"number": 28,
+	"name": "Nickel",
+	"small": "Ni",
+	"img": "Ni_img.png",
+	"kml": "Ni.kmz",
 
-"Top5":{
-	"map": "Top5_Ni_m.png",
-	"table":[
-		{"name":"Number of samples", "value":"4,841"},
-		{"name":"LLD", "value":"0.5 mg/kg"},
-		{"name":"Number below LLD", "value":"23"},
-		{"name":"Minimum", "value":"<0.5 mg/kg"},
-		{"name":"5 percentile", "value":"2.5 mg/kg"},
-		{"name":"25 percentile", "value":"7.8 mg/kg"},
-		{"name":"50 percentile", "value":"13.5 mg/kg"},
-		{"name":"75 percentile", "value":"19.8 mg/kg"},
-		{"name":"95 percentile", "value":"38.5 mg/kg"},
-		{"name":"Maximum", "value":"1,890 mg/kg"},
-		{"name":"MAD", "value":"8.9 mg/kg"},
-		{"name":"Robust CV", "value":"65.9%"}
-	],
-	"graphs":[
-		{"name": "Histogram", "file":"Top5_Ni_g1.jpg"},
-		{"name": "Boxplot", "file":"Top5_Ni_g2.jpg"},
-		{"name": "Empirical cumulative distribution function", "file":"Top5_Ni_g3.jpg"}
-	],
-	"text": "Top5_Ni_txt.html"
-},
+	"Top5":{
+		"map": "Top5_Ni_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"23"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"2.5 mg/kg"},
+			{"name":"25 percentile", "value":"7.8 mg/kg"},
+			{"name":"50 percentile", "value":"13.5 mg/kg"},
+			{"name":"75 percentile", "value":"19.8 mg/kg"},
+			{"name":"95 percentile", "value":"38.5 mg/kg"},
+			{"name":"Maximum", "value":"1,890 mg/kg"},
+			{"name":"MAD", "value":"8.9 mg/kg"},
+			{"name":"Robust CV", "value":"65.9%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ni_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ni_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ni_g3.jpg"}
+		],
+		"text": "Top5_Ni_txt.html"
+	},
 
-"A_Horizon":{
-	"map": "A_Ni_m.png",
-	"table":[
-		{"name":"Number of samples", "value":"4,813"},
-		{"name":"LLD", "value":"0.5 mg/kg"},
-		{"name":"Number below LLD", "value":"9"},
-		{"name":"Minimum", "value":"<0.5 mg/kg"},
-		{"name":"5 percentile", "value":"2.5 mg/kg"},
-		{"name":"25 percentile", "value":"7.9 mg/kg"},
-		{"name":"50 percentile", "value":"13.8 mg/kg"},
-		{"name":"75 percentile", "value":"20 mg/kg"},
-		{"name":"95 percentile", "value":"39.9 mg/kg "},
-		{"name":"Maximum", "value":"2,310 mg/kg"},
-		{"name":"MAD", "value":"8.9 mg/kg"},
-		{"name":"Robust CV", "value":"64.5 %"}
-	],
-	"graphs":[
-		{"name": "Histogram", "file":"A_Ni_g1.jpg"},
-		{"name": "Boxplot", "file":"A_Ni_g2.jpg"},
-		{"name": "Empirical cumulative distribution function", "file":"A_Ni_g3.jpg"}
-	],
-	"text": "A_Ni_txt.html"
-},
+	"A_Horizon":{
+		"map": "A_Ni_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"9"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"2.5 mg/kg"},
+			{"name":"25 percentile", "value":"7.9 mg/kg"},
+			{"name":"50 percentile", "value":"13.8 mg/kg"},
+			{"name":"75 percentile", "value":"20 mg/kg"},
+			{"name":"95 percentile", "value":"39.9 mg/kg "},
+			{"name":"Maximum", "value":"2,310 mg/kg"},
+			{"name":"MAD", "value":"8.9 mg/kg"},
+			{"name":"Robust CV", "value":"64.5 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ni_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ni_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ni_g3.jpg"}
+		],
+		"text": "A_Ni_txt.html"
+	},
 
-"C_Horizon":{
-	"map": "C_Ni_m.png",
-	"table":[
-		{"name":"Number of samples", "value":"4,780"},
-		{"name":"LLD", "value":"0.5 mg/kg"},
-		{"name":"Number below LLD", "value":"8"},
-		{"name":"Minimum", "value":"<0.5 mg/kg"},
-		{"name":"5 percentile", "value":"3.4 mg/kg"},
-		{"name":"25 percentile", "value":"9.8 mg/kg"},
-		{"name":"50 percentile", "value":"16.7 mg/kg"},
-		{"name":"75 percentile", "value":"24.9 mg/kg"},
-		{"name":"95 percentile", "value":"47.5 mg/kg "},
-		{"name":"Maximum", "value":"2,870 mg/kg"},
-		{"name":"MAD", "value":"10.9 mg/kg"},
-		{"name":"Robust CV", "value":"65.3 %"}
-	],
-	"graphs":[
-		{"name": "Histogram", "file":"C_Ni_g1.jpg"},
-		{"name": "Boxplot", "file":"C_Ni_g2.jpg"},
-		{"name": "Empirical cumulative distribution function", "file":"C_Ni_g3.jpg"}
-	],
-	"text": "C_Ni_txt.html"
-}
+	"C_Horizon":{
+		"map": "C_Ni_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"8"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"3.4 mg/kg"},
+			{"name":"25 percentile", "value":"9.8 mg/kg"},
+			{"name":"50 percentile", "value":"16.7 mg/kg"},
+			{"name":"75 percentile", "value":"24.9 mg/kg"},
+			{"name":"95 percentile", "value":"47.5 mg/kg "},
+			{"name":"Maximum", "value":"2,870 mg/kg"},
+			{"name":"MAD", "value":"10.9 mg/kg"},
+			{"name":"Robust CV", "value":"65.3 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ni_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ni_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ni_g3.jpg"}
+		],
+		"text": "C_Ni_txt.html"
+	}
 },
-  {
+{
 	"number": 29,
 	"name": "Copper",
 	"small": "Cu",
@@ -1421,7 +1421,7 @@
 		"text": "C_Cu_txt.html"
 	}
 },
-  {
+{
 	"number": 30,
 	"name": "Zinc",
 	"small": "Zn",
@@ -1500,7 +1500,7 @@
 		"text": "C_Zn_txt.html"
 	}
 },
-  {
+{
 	"number": 31,
 	"name": "Gallium",
 	"small": "Ga",
@@ -1579,7 +1579,7 @@
 		"text": "C_Ga_txt.html"
 	}
 },
-  {
+{
 	"number": 33,
 	"name": "Arsenic",
 	"small": "As",
@@ -1658,7 +1658,7 @@
 		"text": "C_As_txt.html"
 	}
 },
-  {
+{
 	"number": 34,
 	"name": "Selenium",
 	"small": "Se",
@@ -1737,7 +1737,7 @@
 		"text": "C_Se_txt.html"
 	}
 },
-  {
+{
 	"number": 37,
 	"name": "Rubidium",
 	"small": "Rb",
@@ -1816,7 +1816,7 @@
 		"text": "C_Rb_txt.html"
 	}
 },
-  {
+{
 	"number": 38,
 	"name": "Strontium",
 	"small": "Sr",
@@ -1895,7 +1895,7 @@
 		"text": "C_Sr_txt.html"
 	}
 },
-  {
+{
 	"number": 39,
 	"name": "Yttrium",
 	"small": "Y",
@@ -1974,7 +1974,7 @@
 		"text": "C_Y_txt.html"
 	}
 },
-  {
+{
 	"number": 41,
 	"name": "Niobium",
 	"small": "Nb",
@@ -2053,7 +2053,7 @@
 		"text": "C_Nb_txt.html"
 	}
 },
-  {
+{
 	"number": 42,
 	"name": "Molybdenum",
 	"small": "Mo",
@@ -2132,7 +2132,7 @@
 		"text": "C_Mo_txt.html"
 	}
 },
-  {
+{
 	"number": 47,
 	"name": "Silver",
 	"small": "Ag",
@@ -2211,7 +2211,7 @@
 		"text": "C_Ag_txt.html"
 	}
 },
-  {
+{
 	"number": 48,
 	"name": "Cadmium",
 	"small": "Cd",
@@ -2290,7 +2290,7 @@
 		"text": "C_Cd_txt.html"
 	}
 },
-  {
+{
 	"number": 49,
 	"name": "Indium",
 	"small": "In",
@@ -2369,7 +2369,7 @@
 		"text": "C_In_txt.html"
 	}
 },
-  {
+{
 	"number": 50,
 	"name": "Tin",
 	"small": "Sn",
@@ -2448,7 +2448,7 @@
 		"text": "C_Sn_txt.html"
 	}
 },
-  {
+{
 	"number": 51,
 	"name": "Antimony",
 	"small": "Sb",
@@ -2527,7 +2527,7 @@
 		"text": "C_Sb_txt.html"
 	}
 },
-  {
+{
 	"number": 52,
 	"name": "Tellurium",
 	"small": "Te",
@@ -2606,7 +2606,7 @@
 		"text": "C_Te_txt.html"
 	}
 },
-  {
+{
 	"number": 55,
 	"name": "Cesium",
 	"small": "Cs",
@@ -2685,7 +2685,7 @@
 		"text": "C_Cs_txt.html"
 	}
 },
-  {
+{
 	"number": 56,
 	"name": "Barium",
 	"small": "Ba",
@@ -2764,7 +2764,7 @@
 		"text": "C_Ba_txt.html"
 	}
 },
-  {
+{
 	"number": 57,
 	"name": "Lanthanum",
 	"small": "La",
@@ -2843,7 +2843,7 @@
 		"text": "C_La_txt.html"
 	}
 },
-  {
+{
 	"number": 58,
 	"name": "Cerium",
 	"small": "Ce",
@@ -2922,7 +2922,7 @@
 		"text": "C_Ce_txt.html"
 	}
 },
-  {
+{
 	"number": 74,
 	"name": "Tungsten",
 	"small": "W",
@@ -3001,7 +3001,7 @@
 		"text": "C_W_txt.html"
 	}
 },
-  {
+{
 	"number": 80,
 	"name": "Mercury",
 	"small": "Hg",
@@ -3080,7 +3080,7 @@
 		"text": "C_Hg_txt.html"
 	}
 },
-  {
+{
 	"number": 81,
 	"name": "Thallium",
 	"small": "Tl",
@@ -3159,7 +3159,7 @@
 		"text": "C_Tl_txt.html"
 	}
 },
-  {
+{
 	"number": 82,
 	"name": "Lead",
 	"small": "Pb",
@@ -3238,7 +3238,7 @@
 		"text": "C_Pb_txt.html"
 	}
 },
-  {
+{
 	"number": 83,
 	"name": "Bismuth",
 	"small": "Bi",
@@ -3317,7 +3317,7 @@
 		"text": "C_Bi_txt.html"
 	}
 },
-  {
+{
 	"number": 90,
 	"name": "Thorium",
 	"small": "Th",
@@ -3396,7 +3396,7 @@
 		"text": "C_Th_txt.html"
 	}
 },
-  {
+{
 	"number": 92,
 	"name": "Uranium",
 	"small": "U",

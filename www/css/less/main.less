@@ -3,8 +3,8 @@
 @import 'entypoIcons.less';
 @import url(http://fonts.googleapis.com/css?family=News+Cycle|Josefin+Sans|Alegreya+Sans|Sintony|Belleza|Lato);
 
-// @mainFont: 'Lato';
-@mainFont: 'News Cycle';
+@mainFont: 'Lato';
+// @mainFont: 'News Cycle';
 // @mainFont : 'Josefin Sans';
 // @mainFont : 'Alegreya Sans';
 // @mainFont : 'Sintony';
@@ -26,6 +26,9 @@ body{
 }
 a{
 	text-decoration: none;
+}
+.tal{
+	text-align: left;
 }
 [ng-view]{
 	width: 100%;
@@ -76,12 +79,12 @@ a{
 		width: @sz;
 		top: 0;
 		right: @sz*-1;
-		height: @sz;
+		height: @sz+1.4;
 		background: black;
 		color:white;
 		display: block;
 		text-align: center;
-		line-height: @sz;
+		line-height: @sz+1.4;
 		font-size: 4.2rem;
 		position: absolute;
 	}
@@ -162,7 +165,15 @@ a{
 		}
 	}
 }
-
+.periodictable-view{
+	h1{
+		font-size: 3rem;
+		font-weight: 100;
+		color: #353535;
+		letter-spacing: 1rem;
+		border-bottom: 1px solid #fafafa;
+	}
+}
 /*detail view*/
 .detail-view{
 	width: 100%;
@@ -177,6 +188,10 @@ a{
 	.transition(all .2s ease-out);
 	h1{
 		font-size: 3rem;
+		font-weight: 100;
+		color: #353535;
+		letter-spacing: 1rem;
+		border-bottom: 1px solid #fafafa;
 	}
 	.main-interaction{
 		width:1000px;
@@ -205,13 +220,16 @@ a{
 					height: 100%;
 				}
 			}
+			.map-overlay{
+				z-index: 10;
+			}
 		}
 		.terrainBox {
 			width:178px;
 			position:absolute;
-			top: 60px;
+			top: 100px;
 			right: 68px;
-			z-index:5;
+			z-index: 85;
 			.transition(all .5s ease-in-out);
 			&:hover{
 				background: red;
@@ -273,6 +291,35 @@ a{
 				top:-39px;
 				opacity:0.2
 			}
+			.overlayMapMenuBox {
+				width: 280px;
+				height: auto;
+				padding: 20px;
+				background: darken(white, 5%);
+				position: absolute;
+				top: -40px;
+				right: 200px;
+				.box-shadow(0px 9px 0px -6px rgba(0,0,0,0.5));
+				display: none;
+				.row{
+					margin-bottom: 0.5rem;
+				}
+				&:before{
+					@size:15px;
+					display: block;
+					margin: 0 auto;
+					position: absolute;
+					position: absolute;
+					top: @size;
+					right: (@size * -1)+2;
+					content: '';
+					width: 0;
+					height: 0;
+					border-top: @size solid transparent;
+					border-bottom: @size solid transparent;
+					border-left: @size solid darken(white, 5%);
+				}
+			}
 		}
 		.links{
 			width: 200px;
@@ -289,6 +336,7 @@ a{
 				color: black;
 				margin-bottom: 1rem;
 				text-decoration: none;
+				.transition(all .3s);
 				&:hover{
 					background: black;
 					color:white;
@@ -303,7 +351,7 @@ a{
 		background: white;
 		top: 0;
 		right: 0;
-		z-index: 20;
+		z-index: 90;
 		overflow-y: scroll;
 		overflow-x: hidden;
 		border-left: 1px solid #EEE;
@@ -356,4 +404,65 @@ a{
 			}
 		}
 	}
+}
+
+
+
+
+
+/*SWITHC*/
+@lightGray: darken(white, 2%);
+@darkGray: lighten(black, 30%);
+.onOffSwitch{
+  @size: 4rem;
+  @gutter: @size/10;
+
+  width: @size;
+  height: @size/2;
+  border-radius:@size/2;
+  background: @lightGray;
+  position: relative;
+
+  .hidden{
+    display: none;
+  }
+  .handle{
+    width: @size/2 - @gutter;
+    height: @size/2 - @gutter;
+    position: absolute;
+    top: @gutter/2;
+    right: @gutter/2;
+    border-radius: 50%;
+    background: @green;
+    // transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transition: all .2s ease-out;
+    &.off{
+      // transform: translate3d(-123%,0,0);
+      -webkit-transform: translate3d(-123%,0,0);
+      background: @darkGray;
+    }
+  }
+  .text{
+    width: 100%;
+    height: @size/2;
+    line-height: @size/2;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all .1s ease-in;
+    font-size: .7rem;
+    &.shown{
+      opacity: 1;
+    }
+    &.on{
+      padding-left: @gutter;
+      color:@green;
+    }
+    &.off{
+      text-align: right;
+      padding-right: @gutter;
+      color:@darkGray;
+    }
+  }
 }

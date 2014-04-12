@@ -89,8 +89,7 @@
 					"electrons": [
 						2,
 						5
-					],
-					"hasData": true
+					]
 				},
 				{
 					"group": "Element Nonmetal Chalcogen p",
@@ -254,7 +253,8 @@
 						8,
 						8,
 						1
-					]
+					],
+					"hasData": true
 				},
 				{
 					"group": "Element Alkaline s",

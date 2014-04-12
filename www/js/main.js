@@ -105,7 +105,7 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 			var centerTable =  function(){
 				var eh = $(element).height();
 				var wh = $(window).height();
-				var diff = (wh/2)-(eh/2);
+				var diff = ((wh-68)/2)-(eh/2);
 				$(element).css('margin-top', diff);
 			};
 		}
@@ -113,7 +113,7 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 });
 
 
-
+/*DETAIL FO ELEMENTS CONTROLLE*/
 app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateCache, $timeout, $rootScope, DataServices, $routeParams){
 
 	var gotElements = function(data){
@@ -156,6 +156,16 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateC
 		getElementById();
 	}
 
+	$scope.overlays = [
+		{status: false,name: 'Surface geology', img: 'mapOverlay1.png'},
+		{status: false,name: 'Bedrock geology', img: 'mapOverlay1.png'},
+		{status: false,name: 'Glacial boundaries', img: 'mapOverlay1.png'},
+		{status: false,name: 'Precipitation', img: 'mapOverlay1.png'},
+		{status: false,name: 'Soil orders', img: 'mapOverlay1.png'},
+		{status: false,name: 'Ecoregions', img: 'mapOverlay1.png'},
+		{status: false,name: 'Landcover', img: 'mapOverlay1.png'},
+		{status: false,name: 'Agriculture', img: 'mapOverlay1.png'}
+	]
 
 	$scope.currentHorizon = '5';
 	$scope.$watch('currentHorizon', function(){
@@ -179,13 +189,33 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateC
 	$scope.hideInfoMap = function(map){
 		$scope.linkedOverlay = 'blank.png';
 	};
+
+	$scope.toggleOverlays = function(index){
+		if($scope.overlays[index].status){
+			$scope.overlays[index].status = false
+		}else{
+			angular.forEach($scope.overlays, function(value, key){
+				value.status = false;
+			});
+			$scope.overlays[index].status =  true;
+		}
+	}
+
+	$scope.toggleOverlaySelector = function(){
+		$('.overlayMapMenuBox').slideToggle(200);
+	};
 });
 
 /*DATA SERVICES: for getting the data*/
-app.factory('DataServices',[ '$http', '$rootScope',
-	function($http, $rootScope){
-		// var server = 'http://juanpablosolano.com/usgs/data/';
-		var server = 'http://localhost:8000/www/data/';
+app.factory('DataServices',[ '$http', '$rootScope', '$location',
+	function($http, $rootScope, $location){
+
+		if($location.$$host == 'localhost'){
+			var server = 'http://localhost:8000/www/data/';
+		}else{
+			var server = 'http://juanpablosolano.com/usgs/data/';
+		}
+		console.log($location.$$host);
 		return {
 			getPeriodicTable :  function(){
 				return $http.get(server+'periodicTable.json')
@@ -218,7 +248,7 @@ app.factory('DataServices',[ '$http', '$rootScope',
 	}
 ]);
 
-
+/*FILTERS*/
 app.filter("byTowFilter", function(){
     return function(input, test){
 			if(input){
@@ -230,11 +260,3 @@ app.filter("byTowFilter", function(){
 			}
     };
 });
-
-
-
-
-
-
-
-

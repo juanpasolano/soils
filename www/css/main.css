@@ -942,7 +942,7 @@
   content: '\F357';
 }
 * {
-  font-family: 'News Cycle';
+  font-family: 'Lato';
 }
 body {
   width: 100%;
@@ -952,6 +952,9 @@ body {
 }
 a {
   text-decoration: none;
+}
+.tal {
+  text-align: left;
 }
 [ng-view] {
   width: 100%;
@@ -1011,12 +1014,12 @@ a {
   width: 3rem;
   top: 0;
   right: -3rem;
-  height: 3rem;
+  height: 4.4rem;
   background: black;
   color: white;
   display: block;
   text-align: center;
-  line-height: 3rem;
+  line-height: 4.4rem;
   font-size: 4.2rem;
   position: absolute;
 }
@@ -1104,6 +1107,13 @@ a {
   margin-top: 0.4em;
   font-size: 1.5em;
 }
+.periodictable-view h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  color: #353535;
+  letter-spacing: 1rem;
+  border-bottom: 1px solid #fafafa;
+}
 /*detail view*/
 .detail-view {
   width: 100%;
@@ -1122,6 +1132,10 @@ a {
 }
 .detail-view h1 {
   font-size: 3rem;
+  font-weight: 100;
+  color: #353535;
+  letter-spacing: 1rem;
+  border-bottom: 1px solid #fafafa;
 }
 .detail-view .main-interaction {
   width: 1000px;
@@ -1155,12 +1169,15 @@ a {
   width: 100%;
   height: 100%;
 }
+.detail-view .main-interaction .maps-containter .map-overlay {
+  z-index: 10;
+}
 .detail-view .main-interaction .terrainBox {
   width: 178px;
   position: absolute;
-  top: 60px;
+  top: 100px;
   right: 68px;
-  z-index: 5;
+  z-index: 85;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
@@ -1241,6 +1258,35 @@ a {
   top: -39px;
   opacity: 0.2;
 }
+.detail-view .main-interaction .terrainBox .overlayMapMenuBox {
+  width: 280px;
+  height: auto;
+  padding: 20px;
+  background: #f2f2f2;
+  position: absolute;
+  top: -40px;
+  right: 200px;
+  -webkit-box-shadow: 0px 9px 0px -6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 9px 0px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 9px 0px -6px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.detail-view .main-interaction .terrainBox .overlayMapMenuBox .row {
+  margin-bottom: 0.5rem;
+}
+.detail-view .main-interaction .terrainBox .overlayMapMenuBox:before {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 15px;
+  right: -13px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #f2f2f2;
+}
 .detail-view .main-interaction .links {
   width: 200px;
   height: 100px;
@@ -1257,6 +1303,10 @@ a {
   color: black;
   margin-bottom: 1rem;
   text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 .detail-view .main-interaction .links .box-link:hover {
   background: black;
@@ -1269,7 +1319,7 @@ a {
   background: white;
   top: 0;
   right: 0;
-  z-index: 20;
+  z-index: 90;
   overflow-y: scroll;
   overflow-x: hidden;
   border-left: 1px solid #EEE;
@@ -1329,4 +1379,52 @@ a {
   margin-top: 0.7rem;
   text-align: center;
   font-size: 0.9rem;
+}
+/*SWITHC*/
+.onOffSwitch {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 2rem;
+  background: #fafafa;
+  position: relative;
+}
+.onOffSwitch .hidden {
+  display: none;
+}
+.onOffSwitch .handle {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.2rem;
+  border-radius: 50%;
+  background: #20e9a9;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.2s ease-out;
+}
+.onOffSwitch .handle.off {
+  -webkit-transform: translate3d(-123%, 0, 0);
+  background: #4d4d4d;
+}
+.onOffSwitch .text {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.1s ease-in;
+  font-size: .7rem;
+}
+.onOffSwitch .text.shown {
+  opacity: 1;
+}
+.onOffSwitch .text.on {
+  padding-left: 0.4rem;
+  color: #20e9a9;
+}
+.onOffSwitch .text.off {
+  text-align: right;
+  padding-right: 0.4rem;
+  color: #4d4d4d;
 }
