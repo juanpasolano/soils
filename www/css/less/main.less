@@ -3,8 +3,8 @@
 @import 'entypoIcons.less';
 @import url(http://fonts.googleapis.com/css?family=News+Cycle|Josefin+Sans|Alegreya+Sans|Sintony|Belleza|Lato);
 
-@mainFont: 'Lato';
-// @mainFont: 'News Cycle';
+// @mainFont: 'Lato';
+@mainFont: 'News Cycle';
 // @mainFont : 'Josefin Sans';
 // @mainFont : 'Alegreya Sans';
 // @mainFont : 'Sintony';
@@ -184,8 +184,8 @@ a{
 		margin: 0 auto;
 		position: relative;
 		.maps-containter{
-			width: 660px;
-			height: 480px;
+			width: 750px;
+			height: 530px;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -212,8 +212,25 @@ a{
 			top: 60px;
 			right: 68px;
 			z-index:5;
+			.transition(all .5s ease-in-out);
+			&:hover{
+				background: red;
+				.horizons:nth-child(1){
+					.transform(translateY(15px));
+				}
+				.horizons:nth-child(2){
+					.transform(translateY(10px));
+				}
+				.horizons:nth-child(3){
+					.transform(translateY(5px));
+				}
+				.horizons:nth-child(4){
+					.transform(translateY(-5px));
+				}
+			}
 			.horizons{
 				width:230px;
+				height: 204px;
 				left:0px;
 				position: absolute;
 				.transition(all .4s ease-out);
@@ -224,7 +241,7 @@ a{
 					opacity: 1;
 				}
 			}
-			.horizonA {
+			.top5 {
 				height:81px;
 				background:url(../img/horizon-A.png) no-repeat;
 				line-height: 79px;
@@ -232,7 +249,7 @@ a{
 				top:0px;
 				opacity:0.2
 			}
-			.horizonB {
+			.horizonA {
 				height:92px;
 				background:url(../img/horizon-B.png) no-repeat;
 				line-height: 92px;
@@ -287,8 +304,6 @@ a{
 		top: 0;
 		right: 0;
 		z-index: 20;
-		padding: 1rem 3rem;
-		text-align: justify;
 		overflow-y: scroll;
 		overflow-x: hidden;
 		border-left: 1px solid #EEE;
@@ -296,6 +311,20 @@ a{
 		.transition(all .3s ease-out);
 		&.shown{
 			.transform(translate3d(0,0,0));
+		}
+		.img{
+			width: 100%;
+			height: 9rem;
+			overflow: hidden;
+			img{
+				width: 100%;
+			}
+		}
+		.content{
+			padding: 1rem 3rem;
+		}
+		p{
+			text-align: justify;
 		}
 		a{
 			color:@green;

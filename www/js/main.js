@@ -118,30 +118,60 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateC
 
 	var gotElements = function(data){
 		$rootScope.elementsInfo = data;
-		getElement();
+		getElementById();
 	};
 
-	var getElement = function(){
+	var getElementById = function(){
 		$scope.element = _.findWhere($rootScope.elementsInfo, {"number":parseInt($routeParams.id,10)});
+		console.log($scope.element);
 		compileText();
 	};
 	var compileText = function(){
-		$http.get('partials/'+$scope.element.text, {cache: $templateCache}).success(function(tplContent){
-			$('#information .content').append($compile(tplContent)($scope));
-		}).error(function(e){
-			console.log('Cannot load text');
-		});
+		if($scope.element){
+			if($scope.currentHorizon == '5'){
+				$http.get('partials/'+$scope.element.Top5.text, {cache: $templateCache}).success(function(tplContent){
+					$('#information .content').html($compile(tplContent)($scope));
+				}).error(function(e){
+					console.log('Cannot load text');
+				});
+			}else if($scope.currentHorizon == 'A'){
+				$http.get('partials/'+$scope.element.A_Horizon.text, {cache: $templateCache}).success(function(tplContent){
+					$('#information .content').html($compile(tplContent)($scope));
+				}).error(function(e){
+					console.log('Cannot load text');
+				});
+			}else{
+				$http.get('partials/'+$scope.element.C_Horizon.text, {cache: $templateCache}).success(function(tplContent){
+					$('#information .content').html($compile(tplContent)($scope));
+				}).error(function(e){
+					console.log('Cannot load text');
+				});
+			}
+		}
 	};
 
 	if(!$rootScope.elementsInfo){
 		DataServices.getElemntsInfo().success(gotElements);
 	}else{
-		getElement();
+		getElementById();
 	}
 
 
-	$scope.currentHorizon = 'A';
-
+	$scope.currentHorizon = '5';
+	$scope.$watch('currentHorizon', function(){
+		compileText();
+	})
+	$scope.getCurrentDetails = function(){
+		if($scope.element){
+			if($scope.currentHorizon == '5'){
+				return $scope.element.Top5;
+			}else if($scope.currentHorizon == 'A'){
+				return $scope.element.A_Horizon;
+			}else{
+				return $scope.element.C_Horizon;
+			}
+		}
+	}
 	$scope.linkedOverlay = 'blank.png';
 	$scope.showInfoMap = function(map){
 		$scope.linkedOverlay = map;
@@ -154,8 +184,8 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateC
 /*DATA SERVICES: for getting the data*/
 app.factory('DataServices',[ '$http', '$rootScope',
 	function($http, $rootScope){
-		var server = 'http://juanpablosolano.com/usgs/data/';
 		// var server = 'http://juanpablosolano.com/usgs/data/';
+		var server = 'http://localhost:8000/www/data/';
 		return {
 			getPeriodicTable :  function(){
 				return $http.get(server+'periodicTable.json')
@@ -179,7 +209,7 @@ app.factory('DataServices',[ '$http', '$rootScope',
 				return elements;
 			},
 			getElemntsInfo : function(){
-				return $http.get(server+'elementsInfo.json')
+				return $http.get(server+'elementsInfo_FS.json')
 					.success(function(data){
 						console.log('gotElementsInfo');
 					});

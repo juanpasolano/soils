@@ -1,0 +1,3478 @@
+[
+ {
+	"number": 3,
+	"name": "Lithium",
+	"small": "Li",
+	"img": "Li_img.jpg",
+	"kml": "Li.kmz",
+
+	"Top5":{
+		"map": "Top5_Li_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"18"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"5 mg/kg"},
+			{"name":"25 percentile", "value":"13 mg/kg"},
+			{"name":"50 percentile", "value":"20 mg/kg"},
+			{"name":"75 percentile", "value":"27 mg/kg"},
+			{"name":"95 percentile", "value":"43 mg/kg"},
+			{"name":"Maximum", "value":"300 mg/kg"},
+			{"name":"MAD", "value":"10.4 mg/kg"},
+			{"name":"Robust CV", "value":"51.9 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Li_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Li_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Li_g3.jpg"}
+		],
+		"text": "Top5_Li_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Li_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"13"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"5 mg/kg"},
+			{"name":"25 percentile", "value":"13 mg/kg"},
+			{"name":"50 percentile", "value":"20 mg/kg"},
+			{"name":"75 percentile", "value":"27 mg/kg"},
+			{"name":"95 percentile", "value":"45 mg/kg"},
+			{"name":"Maximum", "value":"315 mg/kg"},
+			{"name":"MAD", "value":"10.4 mg/kg"},
+			{"name":"Robust CV", "value":"51.9 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Li_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Li_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Li_g3.jpg"}
+		],
+		"text": "A_Li_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Li_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"7"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"6 mg/kg"},
+			{"name":"25 percentile", "value":"16 mg/kg"},
+			{"name":"50 percentile", "value":"24 mg/kg"},
+			{"name":"75 percentile", "value":"33 mg/kg"},
+			{"name":"95 percentile", "value":"55 mg/kg"},
+			{"name":"Maximum", "value":"280 mg/kg"},
+			{"name":"MAD", "value":"11.9 mg/kg"},
+			{"name":"Robust CV", "value":"49.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Li_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Li_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Li_g3.jpg"}
+		],
+		"text": "C_Li_txt.html"
+	}
+},
+  {
+	"number": 4,
+	"name": "Beryllium",
+	"small": "Be",
+	"img": "Be_img.png",
+	"kml": "Be.kmz",
+
+	"Top5":{
+		"map": "Top5_Be_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"97"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.2 mg/kg"},
+			{"name":"25 percentile", "value":"0.9 mg/kg"},
+			{"name":"50 percentile", "value":"1.3 mg/kg"},
+			{"name":"75 percentile", "value":"1.7 mg/kg"},
+			{"name":"95 percentile", "value":"2.5 mg/kg"},
+			{"name":"Maximum", "value":"17.3 mg/kg"},
+			{"name":"MAD", "value":"0.593 mg/kg"},
+			{"name":"Robust CV", "value":"45.6%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Be_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Be_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Be_g3.jpg"}
+		],
+		"text": "Top5_Be_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Be_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"89"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.2 mg/kg"},
+			{"name":"25 percentile", "value":"0.9 mg/kg"},
+			{"name":"50 percentile", "value":"1.3 mg/kg"},
+			{"name":"75 percentile", "value":"1.7 mg/kg"},
+			{"name":"95 percentile", "value":"2.6 mg/kg"},
+			{"name":"Maximum", "value":"22.1 mg/kg "},
+			{"name":"MAD", "value":"0.593 mg/kg"},
+			{"name":"Robust CV", "value":"45.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Be_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Be_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Be_g3.jpg"}
+		],
+		"text": "A_Be_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Be_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"86"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.4 mg/kg"},
+			{"name":"25 percentile", "value":"1.0 mg/kg"},
+			{"name":"50 percentile", "value":"1.4 mg/kg"},
+			{"name":"75 percentile", "value":"1.9 mg/kg"},
+			{"name":"95 percentile", "value":"2.8 mg/kg"},
+			{"name":"Maximum", "value":"31.6 mg/kg"},
+			{"name":"MAD", "value":"0.593 mg/kg"},
+			{"name":"Robust CV", "value":"42.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Be_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Be_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Be_g3.jpg"}
+		],
+		"text": "C_Be_txt.html"
+	}
+},
+  {
+	"number": 11,
+	"name": "Sodium",
+	"small": "Na",
+	"img": "Na_img.png",
+	"kml": "Na.kmz",
+
+	"Top5":{
+		"map": "Top5_Na_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"200"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.02 wt. %"},
+			{"name":"25 percentile", "value":"0.29 wt. %"},
+			{"name":"50 percentile", "value":"0.69 wt. %"},
+			{"name":"75 percentile", "value":"1.10 wt. %"},
+			{"name":"95 percentile", "value":"2.19 wt. %"},
+			{"name":"Maximum", "value":"6.41 mg/kg"},
+			{"name":"MAD", "value":"0.608 mg/kg"},
+			{"name":"Robust CV", "value":"88.1%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Na_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Na_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Na_g3.jpg"}
+		],
+		"text": "Top5_Na_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Na_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"182"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.02 wt. %"},
+			{"name":"25 percentile", "value":"0.28 wt. %"},
+			{"name":"50 percentile", "value":"0.69 wt. %"},
+			{"name":"75 percentile", "value":"1.1 wt. %"},
+			{"name":"95 percentile", "value":"2.13 wt. % "},
+			{"name":"Maximum", "value":"6.6 wt. % "},
+			{"name":"MAD", "value":"0.593 wt. %"},
+			{"name":"Robust CV", "value":"85.9 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Na_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Na_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Na_g3.jpg"}
+		],
+		"text": "A_Na_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Na_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"214"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.01 wt. %"},
+			{"name":"25 percentile", "value":"0.27 wt. %"},
+			{"name":"50 percentile", "value":"0.70 wt. %"},
+			{"name":"75 percentile", "value":"1.14 wt. %"},
+			{"name":"95 percentile", "value":"2.21 wt. % "},
+			{"name":"Maximum", "value":"5.54 wt. % "},
+			{"name":"MAD", "value":"0.623 wt. %"},
+			{"name":"Robust CV", "value":"89 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Na_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Na_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Na_g3.jpg"}
+		],
+		"text": "C_Na_txt.html"
+	}
+},
+  {
+	"number": 12,
+	"name": "Magnesium",
+	"small": "Mg",
+	"img": "Mg_img.png",
+	"kml": "Mg.kmz",
+
+	"Top5":{
+		"map": "Top5_Mg_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"50"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.03 wt. %"},
+			{"name":"25 percentile", "value":"0.22 wt. %"},
+			{"name":"50 percentile", "value":"0.46 wt. %"},
+			{"name":"75 percentile", "value":"0.74 wt. %"},
+			{"name":"95 percentile", "value":"1.58 wt. %"},
+			{"name":"Maximum", "value":"13.6 mg/kg"},
+			{"name":"MAD", "value":"0.385 mg/kg"},
+			{"name":"Robust CV", "value":"83.8%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Mg_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Mg_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Mg_g3.jpg"}
+		],
+		"text": "Top5_Mg_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Mg_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"41"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.04 wt. %"},
+			{"name":"25 percentile", "value":"0.21 wt. %"},
+			{"name":"50 percentile", "value":"0.46 wt. %"},
+			{"name":"75 percentile", "value":"0.75 wt. %"},
+			{"name":"95 percentile", "value":"1.55 wt. %"},
+			{"name":"Maximum", "value":"13.3 wt. %"},
+			{"name":"MAD", "value":"0.385 wt. %"},
+			{"name":"Robust CV", "value":"83.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Mg_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Mg_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Mg_g3.jpg"}
+		],
+		"text": "A_Mg_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Mg_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"41"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.06 wt. %"},
+			{"name":"25 percentile", "value":"0.32 wt. %"},
+			{"name":"50 percentile", "value":"0.61 wt. %"},
+			{"name":"75 percentile", "value":"1.06 wt. %"},
+			{"name":"95 percentile", "value":"2.14 wt. %"},
+			{"name":"Maximum", "value":"16.80 wt. %"},
+			{"name":"MAD", "value":"0.519 mg/kg"},
+			{"name":"Robust CV", "value":"85.1 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Mg_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Mg_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Mg_g3.jpg"}
+		],
+		"text": "C_Mg_txt.html"
+	}
+},
+  {
+	"number": 13,
+	"name": "Aluminium",
+	"small": "Al",
+	"img": "Al_img.png",
+	"kml": "Al.kmz",
+
+	"Top5":{
+		"map": "Top5_Al_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.02 wt. %"},
+			{"name":"5 percentile", "value":"0.92 wt. %"},
+			{"name":"25 percentile", "value":"3.20 wt. %"},
+			{"name":"50 percentile", "value":"4.67 wt. %"},
+			{"name":"75 percentile", "value":"6.00 wt. %"},
+			{"name":"95 percentile", "value":"7.98 wt. %"},
+			{"name":"Maximum", "value":"15.30 wt. %"},
+			{"name":"MAD", "value":"2.06 wt. %"},
+			{"name":"Robust CV", "value":"44.1%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Al_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Al_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Al_g3.jpg"}
+		],
+		"text": "Top5_Al_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Al_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.9 wt. %"},
+			{"name":"25 percentile", "value":"3.22 wt. %"},
+			{"name":"50 percentile", "value":"4.71 wt. %"},
+			{"name":"75 percentile", "value":"6.12 wt. %"},
+			{"name":"95 percentile", "value":"8.02 wt. % "},
+			{"name":"Maximum", "value":"15.6 wt. % "},
+			{"name":"MAD", "value":"2.15 wt. %"},
+			{"name":"Robust CV", "value":"45.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Al_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Al_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Al_g3.jpg"}
+		],
+		"text": "A_Al_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Al_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.02 wt. %"},
+			{"name":"5 percentile", "value":"1.69 wt. %"},
+			{"name":"25 percentile", "value":"3.93 wt. %"},
+			{"name":"50 percentile", "value":"5.40 wt. %"},
+			{"name":"75 percentile", "value":"6.88 wt. %"},
+			{"name":"95 percentile", "value":"9.24 wt. %"},
+			{"name":"Maximum", "value":"18.6 wt. %"},
+			{"name":"MAD", "value":"2.18 wt. %"},
+			{"name":"Robust CV", "value":"40.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Al_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Al_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Al_g3.jpg"}
+		],
+		"text": "C_Al_txt.html"
+	}
+},
+  {
+	"number": 15,
+	"name": "Phosphorus",
+	"small": "P",
+	"img": "P_img.png",
+	"kml": "P.kmz",
+
+	"Top5":{
+		"map": "Top5_P_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"50 mg/kg"},
+			{"name":"Number below LLD", "value":"34"},
+			{"name":"Minimum", "value":"<50 mg/kg"},
+			{"name":"5 percentile", "value":"140 mg/kg"},
+			{"name":"25 percentile", "value":"360 mg/kg"},
+			{"name":"50 percentile", "value":"580 mg/kg"},
+			{"name":"75 percentile", "value":"840 mg/kg"},
+			{"name":"95 percentile", "value":"1,390 mg/kg"},
+			{"name":"Maximum", "value":"9,120 mg/kg"},
+			{"name":"MAD", "value":"356 mg/kg"},
+			{"name":"Robust CV", "value":"61.3%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_P_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_P_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_P_g3.jpg"}
+		],
+		"text": "Top5_P_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_P_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"50 mg/kg"},
+			{"name":"Number below LLD", "value":"42"},
+			{"name":"Minimum", "value":"<50 mg/kg"},
+			{"name":"5 percentile", "value":"120 mg/kg"},
+			{"name":"25 percentile", "value":"340 mg/kg"},
+			{"name":"50 percentile", "value":"550 mg/kg"},
+			{"name":"75 percentile", "value":"810 mg/kg"},
+			{"name":"95 percentile", "value":"1,390 mg/kg"},
+			{"name":"Maximum", "value":"7,650 mg/kg"},
+			{"name":"MAD", "value":"341 mg/kg"},
+			{"name":"Robust CV", "value":"62 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_P_g1.jpg"},
+			{"name": "Boxplot", "file":"A_P_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_P_g3.jpg"}
+		],
+		"text": "A_P_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_P_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"50 mg/kg"},
+			{"name":"Number below LLD", "value":"119"},
+			{"name":"Minimum", "value":"<50 mg/kg"},
+			{"name":"5 percentile", "value":"70 mg/kg"},
+			{"name":"25 percentile", "value":"220 mg/kg"},
+			{"name":"50 percentile", "value":"430 mg/kg"},
+			{"name":"75 percentile", "value":"640 mg/kg"},
+			{"name":"95 percentile", "value":"1,190 mg/kg"},
+			{"name":"Maximum", "value":"27,400 mg/k"},
+			{"name":"MAD", "value":"311 mg/kg"},
+			{"name":"Robust CV", "value":"72.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_P_g1.jpg"},
+			{"name": "Boxplot", "file":"C_P_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_P_g3.jpg"}
+		],
+		"text": "C_P_txt.html"
+	}
+},
+  {
+	"number": 16,
+	"name": "Sulfur",
+	"small": "S",
+	"img": "S_img.png",
+	"kml": "S.kmz",
+
+	"Top5":{
+		"map": "Top5_S_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"436"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"<0.01 wt. %"},
+			{"name":"25 percentile", "value":"0.02 wt. %"},
+			{"name":"50 percentile", "value":"0.03 wt. %"},
+			{"name":"75 percentile", "value":"0.04 wt. %"},
+			{"name":"95 percentile", "value":"0.08 wt. %"},
+			{"name":"Maximum", "value":"16.1 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_S_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_S_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_S_g3.jpg"}
+		],
+		"text": "Top5_S_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_S_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"583"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"<0.01 wt. %"},
+			{"name":"25 percentile", "value":"0.02 wt. %"},
+			{"name":"50 percentile", "value":"0.03 wt. %"},
+			{"name":"75 percentile", "value":"0.04 wt. %"},
+			{"name":"95 percentile", "value":"0.08 wt. % "},
+			{"name":"Maximum", "value":"16.6 wt. % "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_S_g1.jpg"},
+			{"name": "Boxplot", "file":"A_S_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_S_g3.jpg"}
+		],
+		"text": "A_S_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_S_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"1,061"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"<0.01 wt. %"},
+			{"name":"25 percentile", "value":"0.01 wt. %"},
+			{"name":"50 percentile", "value":"0.02 wt. %"},
+			{"name":"75 percentile", "value":"0.03 wt. %"},
+			{"name":"95 percentile", "value":"0.17 wt. %"},
+			{"name":"Maximum", "value":"16.2 wt. %"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_S_g1.jpg"},
+			{"name": "Boxplot", "file":"C_S_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_S_g3.jpg"}
+		],
+		"text": "C_S_txt.html"
+	}
+},
+  {
+	"number": 19,
+	"name": "Potassium",
+	"small": "K",
+	"img": "K_img.png",
+	"kml": "K.kmz",
+
+	"Top5":{
+		"map": "Top5_K_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"24"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.14 wt. %"},
+			{"name":"25 percentile", "value":"0.99 wt. %"},
+			{"name":"50 percentile", "value":"1.49 wt. %"},
+			{"name":"75 percentile", "value":"1.88 wt. %"},
+			{"name":"95 percentile", "value":"2.68 wt. %"},
+			{"name":"Maximum", "value":"5.44 mg/kg"},
+			{"name":"MAD", "value":"0.652 mg/kg"},
+			{"name":"Robust CV", "value":"43.8%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_K_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_K_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_K_g3.jpg"}
+		],
+		"text": "Top5_K_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_K_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"26"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.14 wt. %"},
+			{"name":"25 percentile", "value":"0.98 wt. %"},
+			{"name":"50 percentile", "value":"1.5 wt. %"},
+			{"name":"75 percentile", "value":"1.9 wt. %"},
+			{"name":"95 percentile", "value":"2.67 wt. %"},
+			{"name":"Maximum", "value":"5.1 wt. %"},
+			{"name":"MAD", "value":"0.652 wt. %"},
+			{"name":"Robust CV", "value":"43.5 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_K_g1.jpg"},
+			{"name": "Boxplot", "file":"A_K_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_K_g3.jpg"}
+		],
+		"text": "A_K_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_K_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"34"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.17 wt. %"},
+			{"name":"25 percentile", "value":"1.04 wt. %"},
+			{"name":"50 percentile", "value":"1.53 wt. %"},
+			{"name":"75 percentile", "value":"1.96 wt. %"},
+			{"name":"95 percentile", "value":"2.78 wt. %"},
+			{"name":"Maximum", "value":"5.67 wt. %"},
+			{"name":"MAD", "value":"0.682 wt. %"},
+			{"name":"Robust CV", "value":"44.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_K_g1.jpg"},
+			{"name": "Boxplot", "file":"C_K_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_K_g3.jpg"}
+		],
+		"text": "C_K_txt.html"
+	}
+},
+  {
+	"number": 20,
+	"name": "Calcium",
+	"small": "Ca",
+	"img": "Ca_img.png",
+	"kml": "Ca.kmz",
+
+	"Top5":{
+		"map": "Top5_Ca_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"57"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.04 wt. %"},
+			{"name":"25 percentile", "value":"0.31 wt. %"},
+			{"name":"50 percentile", "value":"0.76 wt. %"},
+			{"name":"75 percentile", "value":"1.71 wt. %"},
+			{"name":"95 percentile", "value":"6.04 wt. % "},
+			{"name":"Maximum", "value":"32.8 wt. % "},
+			{"name":"MAD", "value":"0.815 wt. %"},
+			{"name":"Robust CV", "value":"107%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ca_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ca_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ca_g3.jpg"}
+		],
+		"text": "Top5_Ca_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Ca_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"57"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.04 wt. %"},
+			{"name":"25 percentile", "value":"0.31 wt. %"},
+			{"name":"50 percentile", "value":"0.74 wt. %"},
+			{"name":"75 percentile", "value":"1.68 wt. %"},
+			{"name":"95 percentile", "value":"6.13 wt. %"},
+			{"name":"Maximum", "value":"29.7 wt. % "},
+			{"name":"MAD", "value":"0.815 wt. %"},
+			{"name":"Robust CV", "value":"110 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ca_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ca_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ca_g3.jpg"}
+		],
+		"text": "A_Ca_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Ca_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"183"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.01 wt. %"},
+			{"name":"25 percentile", "value":"0.27 wt. %"},
+			{"name":"50 percentile", "value":"1.05 wt. %"},
+			{"name":"75 percentile", "value":"3.36 wt. %"},
+			{"name":"95 percentile", "value":"10.5 wt. %"},
+			{"name":"Maximum", "value":"32.3 wt. % "},
+			{"name":"MAD", "value":"1.51 wt. %"},
+			{"name":"Robust CV", "value":"144 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ca_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ca_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ca_g3.jpg"}
+		],
+		"text": "C_Ca_txt.html"
+	}
+},
+  {
+	"number": 21,
+	"name": "Scandium",
+	"small": "Sc",
+	"img": "Sc_img.png",
+	"kml": "Sc.kmz",
+
+	"Top5":{
+		"map": "Top5_Sc_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"20"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"1.2 mg/kg"},
+			{"name":"25 percentile", "value":"3.8 mg/kg"},
+			{"name":"50 percentile", "value":"6.1 mg/kg"},
+			{"name":"75 percentile", "value":"8.4 mg/kg"},
+			{"name":"95 percentile", "value":"15.6 mg/kg"},
+			{"name":"Maximum", "value":"42.3 mg/kg"},
+			{"name":"MAD", "value":"3.41 mg/kg"},
+			{"name":"Robust CV", "value":"55.9%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Sc_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Sc_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Sc_g3.jpg"}
+		],
+		"text": "Top5_Sc_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Sc_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"10"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"1.3 mg/kg"},
+			{"name":"25 percentile", "value":"3.9 mg/kg"},
+			{"name":"50 percentile", "value":"6.1 mg/kg"},
+			{"name":"75 percentile", "value":"8.5 mg/kg"},
+			{"name":"95 percentile", "value":"15.5 mg/kg"},
+			{"name":"Maximum", "value":"48.9 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Sc_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Sc_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Sc_g3.jpg"}
+		],
+		"text": "A_Sc_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Sc_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"9"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"1.6 mg/kg"},
+			{"name":"25 percentile", "value":"4.8 mg/kg"},
+			{"name":"50 percentile", "value":"7.3 mg/kg"},
+			{"name":"75 percentile", "value":"10.3 mg/kg"},
+			{"name":"95 percentile", "value":"18.4 mg/kg"},
+			{"name":"Maximum", "value":"70.8 mg/kg"},
+			{"name":"MAD", "value":"4 mg/kg"},
+			{"name":"Robust CV", "value":"54.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Sc_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Sc_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Sc_g3.jpg"}
+		],
+		"text": "C_Sc_txt.html"
+	}
+},
+  {
+	"number": 22,
+	"name": "Titanium",
+	"small": "Ti",
+	"img": "Ti_img.png",
+	"kml": "Ti.kmz",
+
+	"Top5":{
+		"map": "Top5_Ti_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.09 wt. %"},
+			{"name":"25 percentile", "value":"0.18 wt. %"},
+			{"name":"50 percentile", "value":"0.24 wt. %"},
+			{"name":"75 percentile", "value":"0.32 wt. %"},
+			{"name":"95 percentile", "value":"0.56 wt. %"},
+			{"name":"Maximum", "value":"2.47 wt. %"},
+			{"name":"MAD", "value":"0.104 wt. %"},
+			{"name":"Robust CV", "value":"43.2%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ti_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ti_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ti_g3.jpg"}
+		],
+		"text": "Top5_Ti_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Ti_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.09 wt. %"},
+			{"name":"25 percentile", "value":"0.18 wt. %"},
+			{"name":"50 percentile", "value":"0.24 wt. %"},
+			{"name":"75 percentile", "value":"0.31 wt. %"},
+			{"name":"95 percentile", "value":"0.56 wt. % "},
+			{"name":"Maximum", "value":"2.76 wt. % "},
+			{"name":"MAD", "value":"0.104 wt. %"},
+			{"name":"Robust CV", "value":"43.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ti_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ti_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ti_g3.jpg"}
+		],
+		"text": "A_Ti_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Ti_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.08 wt. %"},
+			{"name":"25 percentile", "value":"0.18 wt. %"},
+			{"name":"50 percentile", "value":"0.25 wt. %"},
+			{"name":"75 percentile", "value":"0.34 wt. %"},
+			{"name":"95 percentile", "value":"0.59 wt. %"},
+			{"name":"Maximum", "value":"3.42 wt. %"},
+			{"name":"MAD", "value":"0.119 wt. %"},
+			{"name":"Robust CV", "value":"47.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ti_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ti_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ti_g3.jpg"}
+		],
+		"text": "C_Ti_txt.html"
+	}
+},
+  {
+	"number": 23,
+	"name": "Vanadium",
+	"small": "V",
+	"img": "V_img.png",
+	"kml": "V.kmz",
+
+	"Top5":{
+		"map": "Top5_V_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"12"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"11 mg/kg"},
+			{"name":"25 percentile", "value":"33 mg/kg"},
+			{"name":"50 percentile", "value":"53 mg/kg"},
+			{"name":"75 percentile", "value":"74 mg/kg"},
+			{"name":"95 percentile", "value":"136 mg/kg"},
+			{"name":"Maximum", "value":"530 mg/kg"},
+			{"name":"MAD", "value":"31.1 mg/kg"},
+			{"name":"Robust CV", "value":"58.7%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_V_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_V_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_V_g3.jpg"}
+		],
+		"text": "Top5_V_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_V_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"10"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"11 mg/kg"},
+			{"name":"25 percentile", "value":"33 mg/kg"},
+			{"name":"50 percentile", "value":"54 mg/kg"},
+			{"name":"75 percentile", "value":"76 mg/kg"},
+			{"name":"95 percentile", "value":"139 mg/kg"},
+			{"name":"Maximum", "value":"524 mg/kg "},
+			{"name":"MAD", "value":"31.1 mg/kg"},
+			{"name":"Robust CV", "value":"57.7 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_V_g1.jpg"},
+			{"name": "Boxplot", "file":"A_V_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_V_g3.jpg"}
+		],
+		"text": "A_V_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_V_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"5"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"14 mg/kg"},
+			{"name":"25 percentile", "value":"41 mg/kg"},
+			{"name":"50 percentile", "value":"64 mg/kg"},
+			{"name":"75 percentile", "value":"92 mg/kg"},
+			{"name":"95 percentile", "value":"158 mg/kg"},
+			{"name":"Maximum", "value":"1,080 mg/kg"},
+			{"name":"MAD", "value":"37.1 mg/kg "},
+			{"name":"Robust CV", "value":"57.9 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_V_g1.jpg"},
+			{"name": "Boxplot", "file":"C_V_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_V_g3.jpg"}
+		],
+		"text": "C_V_txt.html"
+	}
+},
+  {
+	"number": 24,
+	"name": "Chromium",
+	"small": "Cr",
+	"img": "Cr_img.png",
+	"kml": "Cr.kmz",
+
+	"Top5":{
+		"map": "Top5_Cr_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"6 mg/kg"},
+			{"name":"25 percentile", "value":"18 mg/kg"},
+			{"name":"50 percentile", "value":"30 mg/kg"},
+			{"name":"75 percentile", "value":"41 mg/kg"},
+			{"name":"95 percentile", "value":"73 mg/kg"},
+			{"name":"Maximum", "value":"4,120 mg/kg"},
+			{"name":"MAD", "value":"17.8 mg/kg"},
+			{"name":"Robust CV", "value":"59.3%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Cr_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Cr_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Cr_g3.jpg"}
+		],
+		"text": "Top5_Cr_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Cr_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"12"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"5 mg/kg"},
+			{"name":"25 percentile", "value":"18 mg/kg"},
+			{"name":"50 percentile", "value":"31 mg/kg"},
+			{"name":"75 percentile", "value":"42 mg/kg"},
+			{"name":"95 percentile", "value":"74 mg/kg"},
+			{"name":"Maximum", "value":"3,850 mg/kg"},
+			{"name":"MAD", "value":"17.8 mg/kg"},
+			{"name":"Robust CV", "value":"57.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Cr_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Cr_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Cr_g3.jpg"}
+		],
+		"text": "A_Cr_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Cr_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"19"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"5 mg/kg"},
+			{"name":"25 percentile", "value":"17 mg/kg"},
+			{"name":"50 percentile", "value":"30 mg/kg"},
+			{"name":"75 percentile", "value":"45 mg/kg"},
+			{"name":"95 percentile", "value":"81 mg/kg"},
+			{"name":"Maximum", "value":"4,620 mg/kg"},
+			{"name":"MAD", "value":"20.8 mg/kg"},
+			{"name":"Robust CV", "value":"69.5 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Cr_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Cr_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Cr_g3.jpg"}
+		],
+		"text": "C_Cr_txt.html"
+	}
+},
+  {
+	"number": 25,
+	"name": "Manganese",
+	"small": "Mn",
+	"img": "Mn_img.png",
+	"kml": "Mn.kmz",
+
+	"Top5":{
+		"map": "Top5_Mn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"16"},
+			{"name":"Minimum", "value":"<5 mg/kg"},
+			{"name":"5 percentile", "value":"79 mg/kg"},
+			{"name":"25 percentile", "value":"290 mg/kg"},
+			{"name":"50 percentile", "value":"492 mg/kg"},
+			{"name":"75 percentile", "value":"791 mg/kg"},
+			{"name":"95 percentile", "value":"1,520 mg/kg"},
+			{"name":"Maximum", "value":"7,780 mg/kg"},
+			{"name":"MAD", "value":"353 mg/kg"},
+			{"name":"Robust CV", "value":"71.7%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Mn_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Mn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Mn_g3.jpg"}
+		],
+		"text": "Top5_Mn_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Mn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"14"},
+			{"name":"Minimum", "value":"<5 mg/kg"},
+			{"name":"5 percentile", "value":"72.6 mg/kg"},
+			{"name":"25 percentile", "value":"289 mg/kg"},
+			{"name":"50 percentile", "value":"498 mg/kg"},
+			{"name":"75 percentile", "value":"796 mg/kg"},
+			{"name":"95 percentile", "value":"1,580 mg/kg"},
+			{"name":"Maximum", "value":"6,850 mg/kg"},
+			{"name":"MAD", "value":"365 mg/kg"},
+			{"name":"Robust CV", "value":"73.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Mn_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Mn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Mn_g3.jpg"}
+		],
+		"text": "A_Mn_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Mn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"23"},
+			{"name":"Minimum", "value":"<5 mg/kg"},
+			{"name":"5 percentile", "value":"45 mg/kg"},
+			{"name":"25 percentile", "value":"202 mg/kg"},
+			{"name":"50 percentile", "value":"392 mg/kg"},
+			{"name":"75 percentile", "value":"646 mg/kg"},
+			{"name":"95 percentile", "value":"1,240 mg/kg"},
+			{"name":"Maximum", "value":"12,000 mg/k"},
+			{"name":"MAD", "value":"322 mg/kg"},
+			{"name":"Robust CV", "value":"82.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Mn_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Mn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Mn_g3.jpg"}
+		],
+		"text": "C_Mn_txt.html"
+	}
+},
+  {
+	"number": 26,
+	"name": "Iron",
+	"small": "Fe",
+	"img": "Fe_img.png",
+	"kml": "Fe.kmz",
+
+	"Top5":{
+		"map": "Top5_Fe_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"8"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.38 wt. %"},
+			{"name":"25 percentile", "value":"1.28 wt. %"},
+			{"name":"50 percentile", "value":"1.95 wt. %"},
+			{"name":"75 percentile", "value":"2.66 wt. %"},
+			{"name":"95 percentile", "value":"4.56 wt. %"},
+			{"name":"Maximum", "value":"13.30 wt. %"},
+			{"name":"MAD", "value":"1.02 mg/kg"},
+			{"name":"Robust CV", "value":"52.5%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Fe_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Fe_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Fe_g3.jpg"}
+		],
+		"text": "Top5_Fe_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Fe_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.36 wt. %"},
+			{"name":"25 percentile", "value":"1.3 wt. %"},
+			{"name":"50 percentile", "value":"1.99 wt. %"},
+			{"name":"75 percentile", "value":"2.75 wt. %"},
+			{"name":"95 percentile", "value":"4.67 wt. %"},
+			{"name":"Maximum", "value":"13.9 wt. %"},
+			{"name":"MAD", "value":"1.08 wt. %"},
+			{"name":"Robust CV", "value":"54.4%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Fe_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Fe_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Fe_g3.jpg"}
+		],
+		"text": "A_Fe_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Fe_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 wt. %"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.01 wt. %"},
+			{"name":"5 percentile", "value":"0.53 wt. %"},
+			{"name":"25 percentile", "value":"1.57 wt. %"},
+			{"name":"50 percentile", "value":"2.34 wt. %"},
+			{"name":"75 percentile", "value":"3.28 wt. %"},
+			{"name":"95 percentile", "value":"5.57 wt. %"},
+			{"name":"Maximum", "value":"15.30 wt. %"},
+			{"name":"MAD", "value":"15.30 wt. %"},
+			{"name":"Robust CV", "value":"53.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Fe_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Fe_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Fe_g3.jpg"}
+		],
+		"text": "C_Fe_txt.html"
+	}
+},
+  {
+	"number": 27,
+	"name": "Cobalt",
+	"small": "Co",
+	"img": "Co_img.png",
+	"kml": "Co.kmz",
+
+	"Top5":{
+		"map": "Top5_Co_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"24"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.9 mg/kg"},
+			{"name":"25 percentile", "value":"4.4 mg/kg"},
+			{"name":"50 percentile", "value":"7.7 mg/kg"},
+			{"name":"75 percentile", "value":"11.1 mg/kg"},
+			{"name":"95 percentile", "value":"21.2 mg/kg"},
+			{"name":"Maximum", "value":"216 mg/kg"},
+			{"name":"MAD", "value":"4.89 mg/kg"},
+			{"name":"Robust CV", "value":"63.5%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Co_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Co_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Co_g3.jpg"}
+		],
+		"text": "Top5_Co_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Co_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"34"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"1 mg/kg"},
+			{"name":"25 percentile", "value":"4.6 mg/kg"},
+			{"name":"50 percentile", "value":"7.8 mg/kg"},
+			{"name":"75 percentile", "value":"11.3 mg/kg"},
+			{"name":"95 percentile", "value":"21.6 mg/kg"},
+			{"name":"Maximum", "value":"184 mg/kg"},
+			{"name":"MAD", "value":"4.89 mg/kg"},
+			{"name":"Robust CV", "value":"62.7 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Co_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Co_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Co_g3.jpg"}
+		],
+		"text": "A_Co_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Co_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"24"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"1.5 mg/kg"},
+			{"name":"25 percentile", "value":"5.0 mg/kg"},
+			{"name":"50 percentile", "value":"8.4 mg/kg"},
+			{"name":"75 percentile", "value":"12.3 mg/kg"},
+			{"name":"95 percentile", "value":"24.4 mg/kg "},
+			{"name":"Maximum", "value":"316 mg/kg "},
+			{"name":"MAD", "value":"5.34 mg/kg"},
+			{"name":"Robust CV", "value":"63.5 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Co_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Co_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Co_g3.jpg"}
+		],
+		"text": "C_Co_txt.html"
+	}
+},
+{
+"number": 28,
+"name": "Nickel",
+"small": "Ni",
+"img": "Ni_img.png",
+"kml": "Ni.kmz",
+
+"Top5":{
+	"map": "Top5_Ni_m.png",
+	"table":[
+		{"name":"Number of samples", "value":"4,841"},
+		{"name":"LLD", "value":"0.5 mg/kg"},
+		{"name":"Number below LLD", "value":"23"},
+		{"name":"Minimum", "value":"<0.5 mg/kg"},
+		{"name":"5 percentile", "value":"2.5 mg/kg"},
+		{"name":"25 percentile", "value":"7.8 mg/kg"},
+		{"name":"50 percentile", "value":"13.5 mg/kg"},
+		{"name":"75 percentile", "value":"19.8 mg/kg"},
+		{"name":"95 percentile", "value":"38.5 mg/kg"},
+		{"name":"Maximum", "value":"1,890 mg/kg"},
+		{"name":"MAD", "value":"8.9 mg/kg"},
+		{"name":"Robust CV", "value":"65.9%"}
+	],
+	"graphs":[
+		{"name": "Histogram", "file":"Top5_Ni_g1.jpg"},
+		{"name": "Boxplot", "file":"Top5_Ni_g2.jpg"},
+		{"name": "Empirical cumulative distribution function", "file":"Top5_Ni_g3.jpg"}
+	],
+	"text": "Top5_Ni_txt.html"
+},
+
+"A_Horizon":{
+	"map": "A_Ni_m.png",
+	"table":[
+		{"name":"Number of samples", "value":"4,813"},
+		{"name":"LLD", "value":"0.5 mg/kg"},
+		{"name":"Number below LLD", "value":"9"},
+		{"name":"Minimum", "value":"<0.5 mg/kg"},
+		{"name":"5 percentile", "value":"2.5 mg/kg"},
+		{"name":"25 percentile", "value":"7.9 mg/kg"},
+		{"name":"50 percentile", "value":"13.8 mg/kg"},
+		{"name":"75 percentile", "value":"20 mg/kg"},
+		{"name":"95 percentile", "value":"39.9 mg/kg "},
+		{"name":"Maximum", "value":"2,310 mg/kg"},
+		{"name":"MAD", "value":"8.9 mg/kg"},
+		{"name":"Robust CV", "value":"64.5 %"}
+	],
+	"graphs":[
+		{"name": "Histogram", "file":"A_Ni_g1.jpg"},
+		{"name": "Boxplot", "file":"A_Ni_g2.jpg"},
+		{"name": "Empirical cumulative distribution function", "file":"A_Ni_g3.jpg"}
+	],
+	"text": "A_Ni_txt.html"
+},
+
+"C_Horizon":{
+	"map": "C_Ni_m.png",
+	"table":[
+		{"name":"Number of samples", "value":"4,780"},
+		{"name":"LLD", "value":"0.5 mg/kg"},
+		{"name":"Number below LLD", "value":"8"},
+		{"name":"Minimum", "value":"<0.5 mg/kg"},
+		{"name":"5 percentile", "value":"3.4 mg/kg"},
+		{"name":"25 percentile", "value":"9.8 mg/kg"},
+		{"name":"50 percentile", "value":"16.7 mg/kg"},
+		{"name":"75 percentile", "value":"24.9 mg/kg"},
+		{"name":"95 percentile", "value":"47.5 mg/kg "},
+		{"name":"Maximum", "value":"2,870 mg/kg"},
+		{"name":"MAD", "value":"10.9 mg/kg"},
+		{"name":"Robust CV", "value":"65.3 %"}
+	],
+	"graphs":[
+		{"name": "Histogram", "file":"C_Ni_g1.jpg"},
+		{"name": "Boxplot", "file":"C_Ni_g2.jpg"},
+		{"name": "Empirical cumulative distribution function", "file":"C_Ni_g3.jpg"}
+	],
+	"text": "C_Ni_txt.html"
+}
+},
+  {
+	"number": 29,
+	"name": "Copper",
+	"small": "Cu",
+	"img": "Cu_img.png",
+	"kml": "Cu.kmz",
+
+	"Top5":{
+		"map": "Top5_Cu_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"3.8 mg/kg"},
+			{"name":"25 percentile", "value":"8.8 mg/kg"},
+			{"name":"50 percentile", "value":"14.4 mg/kg"},
+			{"name":"75 percentile", "value":"20.9 mg/kg"},
+			{"name":"95 percentile", "value":"43.3 mg/kg"},
+			{"name":"Maximum", "value":"996 mg/kg"},
+			{"name":"MAD", "value":"8.75 mg/kg"},
+			{"name":"Robust CV", "value":"60.7%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Cu_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Cu_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Cu_g3.jpg"}
+		],
+		"text": "Top5_Cu_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Cu_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"4"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"3.6 mg/kg"},
+			{"name":"25 percentile", "value":"9.1 mg/kg"},
+			{"name":"50 percentile", "value":"14.8 mg/kg"},
+			{"name":"75 percentile", "value":"21.8 mg/kg"},
+			{"name":"95 percentile", "value":"47.7 mg/kg "},
+			{"name":"Maximum", "value":"5,090 mg/kg"},
+			{"name":"MAD", "value":"9.19 mg/kg"},
+			{"name":"Robust CV", "value":"62.1 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Cu_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Cu_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Cu_g3.jpg"}
+		],
+		"text": "A_Cu_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Cu_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"14"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"2.9 mg/kg"},
+			{"name":"25 percentile", "value":"9.2 mg/kg"},
+			{"name":"50 percentile", "value":"15.1 mg/kg"},
+			{"name":"75 percentile", "value":"23.0 mg/kg"},
+			{"name":"95 percentile", "value":"47.7 mg/kg"},
+			{"name":"Maximum", "value":"2,540 mg/kg"},
+			{"name":"MAD", "value":"9.93 mg/kg"},
+			{"name":"Robust CV", "value":"65.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Cu_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Cu_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Cu_g3.jpg"}
+		],
+		"text": "C_Cu_txt.html"
+	}
+},
+  {
+	"number": 30,
+	"name": "Zinc",
+	"small": "Zn",
+	"img": "Zn_img.png",
+	"kml": "Zn.kmz",
+
+	"Top5":{
+		"map": "Top5_Zn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"5"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"12 mg/kg"},
+			{"name":"25 percentile", "value":"36 mg/kg"},
+			{"name":"50 percentile", "value":"58 mg/kg"},
+			{"name":"75 percentile", "value":"80 mg/kg"},
+			{"name":"95 percentile", "value":"125 mg/kg"},
+			{"name":"Maximum", "value":"11,700 mg/k"},
+			{"name":"MAD", "value":"32.6 mg/kg"},
+			{"name":"Robust CV", "value":"56.2%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Zn_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Zn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Zn_g3.jpg"}
+		],
+		"text": "Top5_Zn_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Zn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"12 mg/kg"},
+			{"name":"25 percentile", "value":"36 mg/kg"},
+			{"name":"50 percentile", "value":"59 mg/kg"},
+			{"name":"75 percentile", "value":"81 mg/kg"},
+			{"name":"95 percentile", "value":"128 mg/kg"},
+			{"name":"Maximum", "value":"2,130 mg/kg"},
+			{"name":"MAD", "value":"34.1 mg/kg "},
+			{"name":"Robust CV", "value":"57.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Zn_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Zn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Zn_g3.jpg"}
+		],
+		"text": "A_Zn_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Zn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"17"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"10 mg/kg"},
+			{"name":"25 percentile", "value":"33 mg/kg"},
+			{"name":"50 percentile", "value":"54 mg/kg"},
+			{"name":"75 percentile", "value":"76 mg/kg"},
+			{"name":"95 percentile", "value":"117 mg/kg"},
+			{"name":"Maximum", "value":"653 mg/kg "},
+			{"name":"MAD", "value":"31.1 mg/kg "},
+			{"name":"Robust CV", "value":"57.7 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Zn_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Zn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Zn_g3.jpg"}
+		],
+		"text": "C_Zn_txt.html"
+	}
+},
+  {
+	"number": 31,
+	"name": "Gallium",
+	"small": "Ga",
+	"img": "Ga_img.png",
+	"kml": "Ga.kmz",
+
+	"Top5":{
+		"map": "Top5_Ga_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.1 mg/kg"},
+			{"name":"5 percentile", "value":"2.4 mg/kg"},
+			{"name":"25 percentile", "value":"7.5 mg/kg"},
+			{"name":"50 percentile", "value":"11.0 mg/kg"},
+			{"name":"75 percentile", "value":"14.7 mg/kg"},
+			{"name":"95 percentile", "value":"20.0 mg/kg"},
+			{"name":"Maximum", "value":"45.1 mg/kg"},
+			{"name":"MAD", "value":"5.4 mg/kg"},
+			{"name":"Robust CV", "value":"49.1%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ga_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ga_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ga_g3.jpg"}
+		],
+		"text": "Top5_Ga_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Ga_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.08 mg/kg"},
+			{"name":"5 percentile", "value":"2.27 mg/kg"},
+			{"name":"25 percentile", "value":"7.54 mg/kg"},
+			{"name":"50 percentile", "value":"11.2 mg/kg"},
+			{"name":"75 percentile", "value":"15 mg/kg"},
+			{"name":"95 percentile", "value":"20 mg/kg"},
+			{"name":"Maximum", "value":"40.8 mg/kg"},
+			{"name":"MAD", "value":"5.5 mg/kg"},
+			{"name":"Robust CV", "value":" 49.1 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ga_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ga_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ga_g3.jpg"}
+		],
+		"text": "A_Ga_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Ga_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.13 mg/kg"},
+			{"name":"5 percentile", "value":"3.82 mg/kg"},
+			{"name":"25 percentile", "value":"9.29 mg/kg"},
+			{"name":"50 percentile", "value":"13.1 mg/kg"},
+			{"name":"75 percentile", "value":"16.9 mg/kg"},
+			{"name":"95 percentile", "value":"23.0 mg/kg"},
+			{"name":"Maximum", "value":"50.4 mg/kg"},
+			{"name":"MAD", "value":"5.63 mg/kg"},
+			{"name":"Robust CV", "value":"43.0 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ga_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ga_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ga_g3.jpg"}
+		],
+		"text": "C_Ga_txt.html"
+	}
+},
+  {
+	"number": 33,
+	"name": "Arsenic",
+	"small": "As",
+	"img": "As_img.png",
+	"kml": "As.kmz",
+
+	"Top5":{
+		"map": "Top5_As_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.6 mg/kg"},
+			{"name":"Number below LLD", "value":"56"},
+			{"name":"Minimum", "value":"<0.6 mg/kg"},
+			{"name":"5 percentile", "value":"1.4 mg/kg"},
+			{"name":"25 percentile", "value":"3.1 mg/kg"},
+			{"name":"50 percentile", "value":"5.2 mg/kg"},
+			{"name":"75 percentile", "value":"7.6 mg/kg"},
+			{"name":"95 percentile", "value":"13.1 mg/kg"},
+			{"name":"Maximum", "value":"830 mg/kg"},
+			{"name":"MAD", "value":"3.26 mg/kg"},
+			{"name":"Robust CV", "value":"62.7%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_As_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_As_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_As_g3.jpg"}
+		],
+		"text": "Top5_As_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_As_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.6 mg/kg"},
+			{"name":"Number below LLD", "value":"67"},
+			{"name":"Minimum", "value":"<0.6 mg/kg"},
+			{"name":"5 percentile", "value":"1.3 mg/kg"},
+			{"name":"25 percentile", "value":"3.1 mg/kg"},
+			{"name":"50 percentile", "value":"5.2 mg/kg"},
+			{"name":"75 percentile", "value":"7.8 mg/kg"},
+			{"name":"95 percentile", "value":"13.1 mg/kg"},
+			{"name":"Maximum", "value":"1,110 mg/kg"},
+			{"name":"MAD", "value":"3.41 mg/kg"},
+			{"name":"Robust CV", "value":"65.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_As_g1.jpg"},
+			{"name": "Boxplot", "file":"A_As_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_As_g3.jpg"}
+		],
+		"text": "A_As_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_As_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.6 mg/kg"},
+			{"name":"Number below LLD", "value":"73"},
+			{"name":"Minimum", "value":"<0.6 mg/kg"},
+			{"name":"5 percentile", "value":"1.3 mg/kg"},
+			{"name":"25 percentile", "value":"3.4 mg/kg"},
+			{"name":"50 percentile", "value":"5.7 mg/kg"},
+			{"name":"75 percentile", "value":"8.4 mg/kg"},
+			{"name":"95 percentile", "value":"15.7 mg/kg"},
+			{"name":"Maximum", "value":"397 mg/kg"},
+			{"name":"MAD", "value":"3.56 mg/kg"},
+			{"name":"Robust CV", "value":"62.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_As_g1.jpg"},
+			{"name": "Boxplot", "file":"C_As_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_As_g3.jpg"}
+		],
+		"text": "C_As_txt.html"
+	}
+},
+  {
+	"number": 34,
+	"name": "Selenium",
+	"small": "Se",
+	"img": "Se_img.png",
+	"kml": "Se.kmz",
+
+	"Top5":{
+		"map": "Top5_Se_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"2,154"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"<0.2 mg/kg"},
+			{"name":"25 percentile", "value":"<0.2 mg/kg"},
+			{"name":"50 percentile", "value":"0.2 mg/kg"},
+			{"name":"75 percentile", "value":"0.4 mg/kg"},
+			{"name":"95 percentile", "value":"0.8 mg/kg"},
+			{"name":"Maximum", "value":"6.9 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Se_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Se_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Se_g3.jpg"}
+		],
+		"text": "Top5_Se_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Se_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"2,116"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"<0.2 mg/kg"},
+			{"name":"25 percentile", "value":"<0.2 mg/kg"},
+			{"name":"50 percentile", "value":"0.2 mg/kg"},
+			{"name":"75 percentile", "value":"0.4 mg/kg"},
+			{"name":"95 percentile", "value":"0.8 mg/kg"},
+			{"name":"Maximum", "value":"8.3 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Se_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Se_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Se_g3.jpg"}
+		],
+		"text": "A_Se_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Se_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"2,718"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"<0.2 mg/kg"},
+			{"name":"25 percentile", "value":"<0.2 mg/kg"},
+			{"name":"50 percentile", "value":"<0.2 mg/kg"},
+			{"name":"75 percentile", "value":"0.3 mg/kg"},
+			{"name":"95 percentile", "value":"0.9 mg/kg "},
+			{"name":"Maximum", "value":"7.5 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Se_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Se_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Se_g3.jpg"}
+		],
+		"text": "C_Se_txt.html"
+	}
+},
+  {
+	"number": 37,
+	"name": "Rubidium",
+	"small": "Rb",
+	"img": "Rb_img.png",
+	"kml": "Rb.kmz",
+
+	"Top5":{
+		"map": "Top5_Rb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"14"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"10.3 mg/kg"},
+			{"name":"25 percentile", "value":"45.0 mg/kg"},
+			{"name":"50 percentile", "value":"65.2 mg/kg"},
+			{"name":"75 percentile", "value":"84.4 mg/kg"},
+			{"name":"95 percentile", "value":"123 mg/kg"},
+			{"name":"Maximum", "value":"299 mg/kg"},
+			{"name":"MAD", "value":"29.2 mg/kg"},
+			{"name":"Robust CV", "value":"44.8%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Rb_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Rb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Rb_g3.jpg"}
+		],
+		"text": "Top5_Rb_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Rb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"14"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"10 mg/kg"},
+			{"name":"25 percentile", "value":"44.7 mg/kg"},
+			{"name":"50 percentile", "value":"65.8 mg/kg"},
+			{"name":"75 percentile", "value":"84.8 mg/kg"},
+			{"name":"95 percentile", "value":"122 mg/kg"},
+			{"name":"Maximum", "value":"461 mg/kg"},
+			{"name":"MAD", "value":"29.7 mg/kg"},
+			{"name":"Robust CV", "value":"45.1 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Rb_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Rb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Rb_g3.jpg"}
+		],
+		"text": "A_Rb_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Rb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"3"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"13.4 mg/kg"},
+			{"name":"25 percentile", "value":"47.0 mg/kg"},
+			{"name":"50 percentile", "value":"67.2 mg/kg"},
+			{"name":"75 percentile", "value":"89.5 mg/kg"},
+			{"name":"95 percentile", "value":"129 mg/kg"},
+			{"name":"Maximum", "value":"267 mg/kg"},
+			{"name":"MAD", "value":"31.7 mg/kg"},
+			{"name":"Robust CV", "value":"47.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Rb_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Rb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Rb_g3.jpg"}
+		],
+		"text": "C_Rb_txt.html"
+	}
+},
+  {
+	"number": 38,
+	"name": "Strontium",
+	"small": "Sr",
+	"img": "Sr_img.png",
+	"kml": "Sr.kmz",
+
+	"Top5":{
+		"map": "Top5_Sr_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.5 mg/kg"},
+			{"name":"5 percentile", "value":"12.7 mg/kg"},
+			{"name":"25 percentile", "value":"63.4 mg/kg"},
+			{"name":"50 percentile", "value":"121 mg/kg"},
+			{"name":"75 percentile", "value":"203 mg/kg"},
+			{"name":"95 percentile", "value":"426 mg/kg"},
+			{"name":"Maximum", "value":"2,620 mg/kg"},
+			{"name":"MAD", "value":"96.5 mg/kg"},
+			{"name":"Robust CV", "value":"79.8%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Sr_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Sr_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Sr_g3.jpg"}
+		],
+		"text": "Top5_Sr_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Sr_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"13.2 mg/kg"},
+			{"name":"25 percentile", "value":"64 mg/kg"},
+			{"name":"50 percentile", "value":"122 mg/kg"},
+			{"name":"75 percentile", "value":"204 mg/kg"},
+			{"name":"95 percentile", "value":"432 mg/kg "},
+			{"name":"Maximum", "value":"7,080 mg/kg"},
+			{"name":"MAD", "value":"97.9 mg/kg"},
+			{"name":"Robust CV", "value":"80.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Sr_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Sr_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Sr_g3.jpg"}
+		],
+		"text": "A_Sr_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Sr_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"1"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"14.4 mg/kg"},
+			{"name":"25 percentile", "value":"71.2 mg/kg"},
+			{"name":"50 percentile", "value":"142 mg/kg"},
+			{"name":"75 percentile", "value":"232 mg/kg"},
+			{"name":"95 percentile", "value":"479 mg/kg"},
+			{"name":"Maximum", "value":"10,900 mg/k"},
+			{"name":"MAD", "value":"115 mg/kg"},
+			{"name":"Robust CV", "value":"81.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Sr_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Sr_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Sr_g3.jpg"}
+		],
+		"text": "C_Sr_txt.html"
+	}
+},
+  {
+	"number": 39,
+	"name": "Yttrium",
+	"small": "Y",
+	"img": "Y_img.png",
+	"kml": "Y.kmz",
+
+	"Top5":{
+		"map": "Top5_Y_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.2 mg/kg"},
+			{"name":"5 percentile", "value":"3.7 mg/kg"},
+			{"name":"25 percentile", "value":"9.8 mg/kg"},
+			{"name":"50 percentile", "value":"14.4 mg/kg"},
+			{"name":"75 percentile", "value":"18.4 mg/kg"},
+			{"name":"95 percentile", "value":"27.5 mg/kg"},
+			{"name":"Maximum", "value":"191 mg/kg"},
+			{"name":"MAD", "value":"6.38 mg/kg"},
+			{"name":"Robust CV", "value":"44.3%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Y_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Y_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Y_g3.jpg"}
+		],
+		"text": "Top5_Y_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Y_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.2 mg/kg"},
+			{"name":"5 percentile", "value":"3.7 mg/kg"},
+			{"name":"25 percentile", "value":"10.0 mg/kg"},
+			{"name":"50 percentile", "value":"14.6 mg/kg"},
+			{"name":"75 percentile", "value":"18.7 mg/kg"},
+			{"name":"95 percentile", "value":"27.5 mg/kg"},
+			{"name":"Maximum", "value":"254 mg/kg "},
+			{"name":"MAD", "value":"6.38 mg/kg "},
+			{"name":"Robust CV", "value":"43.7 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Y_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Y_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Y_g3.jpg"}
+		],
+		"text": "A_Y_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Y_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.2 mg/kg"},
+			{"name":"5 percentile", "value":"4.5 mg/kg"},
+			{"name":"25 percentile", "value":"10.7 mg/kg"},
+			{"name":"50 percentile", "value":"15.6 mg/kg"},
+			{"name":"75 percentile", "value":"20.3 mg/kg"},
+			{"name":"95 percentile", "value":"30.2 mg/kg"},
+			{"name":"Maximum", "value":"288 mg/kg "},
+			{"name":"MAD", "value":"6.97 mg/kg "},
+			{"name":"Robust CV", "value":"44.7 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Y_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Y_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Y_g3.jpg"}
+		],
+		"text": "C_Y_txt.html"
+	}
+},
+  {
+	"number": 41,
+	"name": "Niobium",
+	"small": "Nb",
+	"img": "Nb_img.png",
+	"kml": "Nb.kmz",
+
+	"Top5":{
+		"map": "Top5_Nb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"2.8 mg/kg"},
+			{"name":"25 percentile", "value":"6.0 mg/kg"},
+			{"name":"50 percentile", "value":"8.5 mg/kg"},
+			{"name":"75 percentile", "value":"11.1 mg/kg"},
+			{"name":"95 percentile", "value":"18.3 mg/kg"},
+			{"name":"Maximum", "value":"80.1 mg/kg"},
+			{"name":"MAD", "value":"3.71 mg/kg"},
+			{"name":"Robust CV", "value":"43.6%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Nb_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Nb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Nb_g3.jpg"}
+		],
+		"text": "Top5_Nb_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Nb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"1"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"2.7 mg/kg"},
+			{"name":"25 percentile", "value":"6.1 mg/kg"},
+			{"name":"50 percentile", "value":"8.6 mg/kg"},
+			{"name":"75 percentile", "value":"11.2 mg/kg"},
+			{"name":"95 percentile", "value":"17.7 mg/kg "},
+			{"name":"Maximum", "value":"96.8 mg/kg "},
+			{"name":"MAD", "value":"3.71 mg/kg"},
+			{"name":"Robust CV", "value":"43.1 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Nb_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Nb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Nb_g3.jpg"}
+		],
+		"text": "A_Nb_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Nb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"2.3 mg/kg"},
+			{"name":"25 percentile", "value":"6.3 mg/kg"},
+			{"name":"50 percentile", "value":"9.2 mg/kg"},
+			{"name":"75 percentile", "value":"12.3 mg/kg"},
+			{"name":"95 percentile", "value":"20.3 mg/kg"},
+			{"name":"Maximum", "value":"289 mg/kg"},
+			{"name":"MAD", "value":"4.45 mg/kg"},
+			{"name":"Robust CV", "value":"48.3 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Nb_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Nb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Nb_g3.jpg"}
+		],
+		"text": "C_Nb_txt.html"
+	}
+},
+  {
+	"number": 42,
+	"name": "Molybdenum",
+	"small": "Mo",
+	"img": "Mo_img.png",
+	"kml": "Mo.kmz",
+
+	"Top5":{
+		"map": "Top5_Mo_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"11"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"0.24 mg/kg"},
+			{"name":"25 percentile", "value":"0.51 mg/kg"},
+			{"name":"50 percentile", "value":"0.78 mg/kg"},
+			{"name":"75 percentile", "value":"1.14 mg/kg"},
+			{"name":"95 percentile", "value":"2.27 mg/kg"},
+			{"name":"Maximum", "value":"75.7 mg/kg"},
+			{"name":"MAD", "value":"0.46 mg/kg"},
+			{"name":"Robust CV", "value":"58.9%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Mo_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Mo_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Mo_g3.jpg"}
+		],
+		"text": "Top5_Mo_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Mo_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"7"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"0.24 mg/kg"},
+			{"name":"25 percentile", "value":"0.5 mg/kg"},
+			{"name":"50 percentile", "value":"0.78 mg/kg"},
+			{"name":"75 percentile", "value":"1.13 mg/kg"},
+			{"name":"95 percentile", "value":"2.22 mg/kg "},
+			{"name":"Maximum", "value":"70.3 mg/kg "},
+			{"name":"MAD", "value":"0.445 mg/kg"},
+			{"name":"Robust CV", "value":"57 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Mo_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Mo_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Mo_g3.jpg"}
+		],
+		"text": "A_Mo_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Mo_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"11"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"0.20 mg/kg"},
+			{"name":"25 percentile", "value":"0.51 mg/kg"},
+			{"name":"50 percentile", "value":"0.83 mg/kg"},
+			{"name":"75 percentile", "value":"1.27 mg/kg"},
+			{"name":"95 percentile", "value":"2.88 mg/kg"},
+			{"name":"Maximum", "value":"94.70 mg/kg"},
+			{"name":"MAD", "value":"0.534 mg/kg"},
+			{"name":"Robust CV", "value":"64.3 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Mo_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Mo_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Mo_g3.jpg"}
+		],
+		"text": "C_Mo_txt.html"
+	}
+},
+  {
+	"number": 47,
+	"name": "Silver",
+	"small": "Ag",
+	"img": "Ag_img.png",
+	"kml": "Ag.kmz",
+
+	"Top5":{
+		"map": "Top5_Ag_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"4,828"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"<1 mg/kg"},
+			{"name":"25 percentile", "value":"<1 mg/kg"},
+			{"name":"50 percentile", "value":"<1 mg/kg"},
+			{"name":"75 percentile", "value":"<1 mg/kg"},
+			{"name":"95 percentile", "value":"<1 mg/kg"},
+			{"name":"Maximum", "value":"7.7 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ag_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ag_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ag_g3.jpg"}
+		],
+		"text": "Top5_Ag_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Ag_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"4,799"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"<1 mg/kg"},
+			{"name":"25 percentile", "value":"<1 mg/kg"},
+			{"name":"50 percentile", "value":"<1 mg/kg"},
+			{"name":"75 percentile", "value":"<1 mg/kg"},
+			{"name":"95 percentile", "value":"<1 mg/kg "},
+			{"name":"Maximum", "value":"14 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ag_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ag_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ag_g3.jpg"}
+		],
+		"text": "A_Ag_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Ag_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"1 mg/kg"},
+			{"name":"Number below LLD", "value":"4,769"},
+			{"name":"Minimum", "value":"<1 mg/kg"},
+			{"name":"5 percentile", "value":"<1 mg/kg"},
+			{"name":"25 percentile", "value":"<1 mg/kg"},
+			{"name":"50 percentile", "value":"<1 mg/kg"},
+			{"name":"75 percentile", "value":"<1 mg/kg"},
+			{"name":"95 percentile", "value":"<1 mg/kg"},
+			{"name":"Maximum", "value":"3 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ag_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ag_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ag_g3.jpg"}
+		],
+		"text": "C_Ag_txt.html"
+	}
+},
+  {
+	"number": 48,
+	"name": "Cadmium",
+	"small": "Cd",
+	"img": "Cd_img.png",
+	"kml": "Cd.kmz",
+
+	"Top5":{
+		"map": "Top5_Cd_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"1,054"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"0.1 mg/kg"},
+			{"name":"50 percentile", "value":"0.2 mg/kg"},
+			{"name":"75 percentile", "value":"0.3 mg/kg"},
+			{"name":"95 percentile", "value":"0.7 mg/kg "},
+			{"name":"Maximum", "value":"76.8 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Cd_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Cd_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Cd_g3.jpg"}
+		],
+		"text": "Top5_Cd_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Cd_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"1,146"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"0.1 mg/kg"},
+			{"name":"50 percentile", "value":"0.2 mg/kg"},
+			{"name":"75 percentile", "value":"0.3 mg/kg"},
+			{"name":"95 percentile", "value":"0.6 mg/kg"},
+			{"name":"Maximum", "value":"46.6 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Cd_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Cd_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Cd_g3.jpg"}
+		],
+		"text": "A_Cd_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Cd_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"2,149"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"<0.1 mg/kg"},
+			{"name":"50 percentile", "value":"0.1 mg/kg"},
+			{"name":"75 percentile", "value":"0.2 mg/kg"},
+			{"name":"95 percentile", "value":"0.5 mg/kg "},
+			{"name":"Maximum", "value":"36.4 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Cd_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Cd_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Cd_g3.jpg"}
+		],
+		"text": "C_Cd_txt.html"
+	}
+},
+  {
+	"number": 49,
+	"name": "Indium",
+	"small": "In",
+	"img": "In_img.png",
+	"kml": "In.kmz",
+
+	"Top5":{
+		"map": "Top5_In_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.02 mg/kg"},
+			{"name":"Number below LLD", "value":"1,017"},
+			{"name":"Minimum", "value":"<0.02 mg/kg"},
+			{"name":"5 percentile", "value":"<0.02 mg/kg"},
+			{"name":"25 percentile", "value":"0.02 mg/kg"},
+			{"name":"50 percentile", "value":"0.03 mg/kg"},
+			{"name":"75 percentile", "value":"0.05 mg/kg"},
+			{"name":"95 percentile", "value":"0.07 mg/kg"},
+			{"name":"Maximum", "value":"4.54 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_In_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_In_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_In_g3.jpg"}
+		],
+		"text": "Top5_In_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_In_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.02 mg/kg"},
+			{"name":"Number below LLD", "value":"1,017"},
+			{"name":"Minimum", "value":"<0.02 mg/kg"},
+			{"name":"5 percentile", "value":"<0.02 mg/kg"},
+			{"name":"25 percentile", "value":"0.02 mg/kg"},
+			{"name":"50 percentile", "value":"0.03 mg/kg"},
+			{"name":"75 percentile", "value":"0.05 mg/kg"},
+			{"name":"95 percentile", "value":"0.07 mg/kg"},
+			{"name":"Maximum", "value":"4.61 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_In_g1.jpg"},
+			{"name": "Boxplot", "file":"A_In_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_In_g3.jpg"}
+		],
+		"text": "A_In_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_In_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.02 mg/kg"},
+			{"name":"Number below LLD", "value":"687"},
+			{"name":"Minimum", "value":"<0.02 mg/kg"},
+			{"name":"5 percentile", "value":"<0.02 mg/kg"},
+			{"name":"25 percentile", "value":"0.03 mg/kg"},
+			{"name":"50 percentile", "value":"0.04 mg/kg"},
+			{"name":"75 percentile", "value":"0.05 mg/kg"},
+			{"name":"95 percentile", "value":"0.09 mg/kg"},
+			{"name":"Maximum", "value":"4.39 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_In_g1.jpg"},
+			{"name": "Boxplot", "file":"C_In_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_In_g3.jpg"}
+		],
+		"text": "C_In_txt.html"
+	}
+},
+  {
+	"number": 50,
+	"name": "Tin",
+	"small": "Sn",
+	"img": "Sn_img.png",
+	"kml": "Sn.kmz",
+
+	"Top5":{
+		"map": "Top5_Sn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"9"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.5 mg/kg"},
+			{"name":"25 percentile", "value":"0.9 mg/kg"},
+			{"name":"50 percentile", "value":"1.3 mg/kg"},
+			{"name":"75 percentile", "value":"1.8 mg/kg"},
+			{"name":"95 percentile", "value":"3.1 mg/kg"},
+			{"name":"Maximum", "value":"88.9 mg/kg"},
+			{"name":"MAD", "value":"0.593 mg/kg"},
+			{"name":"Robust CV", "value":"45.6%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Sn_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Sn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Sn_g3.jpg"}
+		],
+		"text": "Top5_Sn_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Sn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.5 mg/kg"},
+			{"name":"25 percentile", "value":"0.9 mg/kg"},
+			{"name":"50 percentile", "value":"1.3 mg/kg"},
+			{"name":"75 percentile", "value":"1.7 mg/kg"},
+			{"name":"95 percentile", "value":"2.8 mg/kg "},
+			{"name":"Maximum", "value":"375 mg/kg "},
+			{"name":"MAD", "value":"0.593 mg/kg "},
+			{"name":"Robust CV", "value":"45.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Sn_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Sn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Sn_g3.jpg"}
+		],
+		"text": "A_Sn_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Sn_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"18"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.4 mg/kg"},
+			{"name":"25 percentile", "value":"1.0 mg/kg"},
+			{"name":"50 percentile", "value":"1.4 mg/kg"},
+			{"name":"75 percentile", "value":"1.8 mg/kg"},
+			{"name":"95 percentile", "value":"2.8 mg/kg"},
+			{"name":"Maximum", "value":"30.9 mg/kg"},
+			{"name":"MAD", "value":"0.593 mg/kg"},
+			{"name":"Robust CV", "value":"42.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Sn_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Sn_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Sn_g3.jpg"}
+		],
+		"text": "C_Sn_txt.html"
+	}
+},
+  {
+	"number": 51,
+	"name": "Antimony",
+	"small": "Sb",
+	"img": "Sb_img.png",
+	"kml": "Sb.kmz",
+
+	"Top5":{
+		"map": "Top5_Sb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"34"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"0.15 mg/kg"},
+			{"name":"25 percentile", "value":"0.37 mg/kg"},
+			{"name":"50 percentile", "value":"0.57 mg/kg"},
+			{"name":"75 percentile", "value":"0.80 mg/kg"},
+			{"name":"95 percentile", "value":"1.49 mg/kg"},
+			{"name":"Maximum", "value":"482 mg/kg"},
+			{"name":"MAD", "value":"0.311 mg/kg"},
+			{"name":"Robust CV", "value":"54.6%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Sb_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Sb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Sb_g3.jpg"}
+		],
+		"text": "Top5_Sb_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Sb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"25"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"0.15 mg/kg"},
+			{"name":"25 percentile", "value":"0.37 mg/kg"},
+			{"name":"50 percentile", "value":"0.57 mg/kg"},
+			{"name":"75 percentile", "value":"0.8 mg/kg"},
+			{"name":"95 percentile", "value":"1.48 mg/kg"},
+			{"name":"Maximum", "value":"630 mg/kg"},
+			{"name":"MAD", "value":"0.311 mg/kg"},
+			{"name":"Robust CV", "value":"54.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Sb_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Sb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Sb_g3.jpg"}
+		],
+		"text": "A_Sb_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Sb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"83"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"0.11 mg/kg"},
+			{"name":"25 percentile", "value":"0.36 mg/kg"},
+			{"name":"50 percentile", "value":"0.58 mg/kg"},
+			{"name":"75 percentile", "value":"0.82 mg/kg"},
+			{"name":"95 percentile", "value":"1.49 mg/kg "},
+			{"name":"Maximum", "value":"40.6 mg/kg "},
+			{"name":"MAD", "value":"0.341 mg/kg"},
+			{"name":"Robust CV", "value":"58.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Sb_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Sb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Sb_g3.jpg"}
+		],
+		"text": "C_Sb_txt.html"
+	}
+},
+  {
+	"number": 52,
+	"name": "Tellurium",
+	"small": "Te",
+	"img": "Te_img.png",
+	"kml": "Te.kmz",
+
+	"Top5":{
+		"map": "Top5_Te_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"4,684"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"<0.1 mg/kg"},
+			{"name":"50 percentile", "value":"<0.1 mg/kg"},
+			{"name":"75 percentile", "value":"<0.1 mg/kg"},
+			{"name":"95 percentile", "value":"<0.1 mg/kg"},
+			{"name":"Maximum", "value":"50.5 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Te_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Te_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Te_g3.jpg"}
+		],
+		"text": "Top5_Te_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Te_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"4,655"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"<0.1 mg/kg"},
+			{"name":"50 percentile", "value":"<0.1 mg/kg"},
+			{"name":"75 percentile", "value":"<0.1 mg/kg"},
+			{"name":"95 percentile", "value":"<0.1 mg/kg "},
+			{"name":"Maximum", "value":"9.6 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Te_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Te_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Te_g3.jpg"}
+		],
+		"text": "A_Te_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Te_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"4,567"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"<0.1 mg/kg"},
+			{"name":"50 percentile", "value":"<0.1 mg/kg"},
+			{"name":"75 percentile", "value":"<0.1 mg/kg"},
+			{"name":"95 percentile", "value":"<0.1 mg/kg "},
+			{"name":"Maximum", "value":"6.1 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Te_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Te_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Te_g3.jpg"}
+		],
+		"text": "C_Te_txt.html"
+	}
+},
+  {
+	"number": 55,
+	"name": "Cesium",
+	"small": "Cs",
+	"img": "Cs_img.png",
+	"kml": "Cs.kmz",
+
+	"Top5":{
+		"map": "Top5_Cs_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"3,954"},
+			{"name":"Minimum", "value":"<5 mg/kg"},
+			{"name":"5 percentile", "value":"<5 mg/kg"},
+			{"name":"25 percentile", "value":"<5 mg/kg"},
+			{"name":"50 percentile", "value":"<5 mg/kg"},
+			{"name":"75 percentile", "value":"<5 mg/kg"},
+			{"name":"95 percentile", "value":"7 mg/kg "},
+			{"name":"Maximum", "value":"97 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Cs_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Cs_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Cs_g3.jpg"}
+		],
+		"text": "Top5_Cs_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Cs_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"3,942"},
+			{"name":"Minimum", "value":"<5 mg/kg"},
+			{"name":"5 percentile", "value":"<5 mg/kg"},
+			{"name":"25 percentile", "value":"<5 mg/kg"},
+			{"name":"50 percentile", "value":"<5 mg/kg"},
+			{"name":"75 percentile", "value":"<5 mg/kg"},
+			{"name":"95 percentile", "value":"7 mg/kg "},
+			{"name":"Maximum", "value":"97 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Cs_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Cs_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Cs_g3.jpg"}
+		],
+		"text": "A_Cs_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Cs_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"3,470"},
+			{"name":"Minimum", "value":"<5 mg/kg"},
+			{"name":"5 percentile", "value":"<5 mg/kg"},
+			{"name":"25 percentile", "value":"<5 mg/kg"},
+			{"name":"50 percentile", "value":"<5 mg/kg"},
+			{"name":"75 percentile", "value":"5 mg/kg"},
+			{"name":"95 percentile", "value":"8 mg/kg"},
+			{"name":"Maximum", "value":"144 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Cs_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Cs_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Cs_g3.jpg"}
+		],
+		"text": "C_Cs_txt.html"
+	}
+},
+  {
+	"number": 56,
+	"name": "Barium",
+	"small": "Ba",
+	"img": "Ba_img.png",
+	"kml": "Ba.kmz",
+
+	"Top5":{
+		"map": "Top5_Ba_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"5 mg/kg"},
+			{"name":"5 percentile", "value":"86 mg/kg"},
+			{"name":"25 percentile", "value":"329 mg/kg"},
+			{"name":"50 percentile", "value":"510 mg/kg"},
+			{"name":"75 percentile", "value":"683 mg/kg"},
+			{"name":"95 percentile", "value":"956 mg/kg"},
+			{"name":"Maximum", "value":"4,770 mg/kg"},
+			{"name":"MAD", "value":"262 mg/kg"},
+			{"name":"Robust CV", "value":"51.5%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ba_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ba_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ba_g3.jpg"}
+		],
+		"text": "Top5_Ba_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Ba_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"6 mg/kg"},
+			{"name":"5 percentile", "value":"83 mg/kg"},
+			{"name":"25 percentile", "value":"331 mg/kg"},
+			{"name":"50 percentile", "value":"513 mg/kg"},
+			{"name":"75 percentile", "value":"686 mg/kg"},
+			{"name":"95 percentile", "value":"959 mg/kg"},
+			{"name":"Maximum", "value":"4,850 mg/kg"},
+			{"name":"MAD", "value":"261 mg/kg"},
+			{"name":"Robust CV", "value":"50.9 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ba_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ba_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ba_g3.jpg"}
+		],
+		"text": "A_Ba_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Ba_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"5 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"5 mg/kg"},
+			{"name":"5 percentile", "value":"81 mg/kg"},
+			{"name":"25 percentile", "value":"343 mg/kg"},
+			{"name":"50 percentile", "value":"506 mg/kg"},
+			{"name":"75 percentile", "value":"701 mg/kg"},
+			{"name":"95 percentile", "value":"1,020 mg/kg"},
+			{"name":"Maximum", "value":"9,360 mg/kg"},
+			{"name":"MAD", "value":"265 mg/kg"},
+			{"name":"Robust CV", "value":"52.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ba_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ba_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ba_g3.jpg"}
+		],
+		"text": "C_Ba_txt.html"
+	}
+},
+  {
+	"number": 57,
+	"name": "Lanthanum",
+	"small": "La",
+	"img": "La_img.png",
+	"kml": "La.kmz",
+
+	"Top5":{
+		"map": "Top5_La_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"5"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"8.2 mg/kg"},
+			{"name":"25 percentile", "value":"18.0 mg/kg"},
+			{"name":"50 percentile", "value":"25.7 mg/kg"},
+			{"name":"75 percentile", "value":"31.9 mg/kg"},
+			{"name":"95 percentile", "value":"44.9 mg/kg"},
+			{"name":"Maximum", "value":"239 mg/kg"},
+			{"name":"MAD", "value":"10.2 mg/kg"},
+			{"name":"Robust CV", "value":"39.8%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_La_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_La_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_La_g3.jpg"}
+		],
+		"text": "Top5_La_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_La_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"4"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"8.16 mg/kg"},
+			{"name":"25 percentile", "value":"18.2 mg/kg"},
+			{"name":"50 percentile", "value":"25.7 mg/kg"},
+			{"name":"75 percentile", "value":"31.9 mg/kg"},
+			{"name":"95 percentile", "value":"43.6 mg/kg"},
+			{"name":"Maximum", "value":"205 mg/kg"},
+			{"name":"MAD", "value":"10.1 mg/kg"},
+			{"name":"Robust CV", "value":"39.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_La_g1.jpg"},
+			{"name": "Boxplot", "file":"A_La_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_La_g3.jpg"}
+		],
+		"text": "A_La_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_La_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"4"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"8.9 mg/kg"},
+			{"name":"25 percentile", "value":"18.7 mg/kg"},
+			{"name":"50 percentile", "value":"26.1 mg/kg"},
+			{"name":"75 percentile", "value":"33.8 mg/kg"},
+			{"name":"95 percentile", "value":"48.7 mg/kg"},
+			{"name":"Maximum", "value":"283 mg/kg"},
+			{"name":"MAD", "value":"11.3 mg/kg"},
+			{"name":"Robust CV", "value":"43.2 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_La_g1.jpg"},
+			{"name": "Boxplot", "file":"C_La_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_La_g3.jpg"}
+		],
+		"text": "C_La_txt.html"
+	}
+},
+  {
+	"number": 58,
+	"name": "Cerium",
+	"small": "Ce",
+	"img": "Ce_img.png",
+	"kml": "Ce.kmz",
+
+	"Top5":{
+		"map": "Top5_Ce_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.65 mg/kg"},
+			{"name":"5 percentile", "value":"16.0 mg/kg"},
+			{"name":"25 percentile", "value":"36.2 mg/kg"},
+			{"name":"50 percentile", "value":"51.1 mg/kg"},
+			{"name":"75 percentile", "value":"63.6 mg/kg"},
+			{"name":"95 percentile", "value":"92.1 mg/kg"},
+			{"name":"Maximum", "value":"415 mg/kg"},
+			{"name":"MAD", "value":"20.2 mg/kg"},
+			{"name":"Robust CV", "value":"39.5%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Ce_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Ce_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Ce_g3.jpg"}
+		],
+		"text": "Top5_Ce_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Ce_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.05 mg/kg"},
+			{"name":"5 percentile", "value":"16.1 mg/kg"},
+			{"name":"25 percentile", "value":"36.9 mg/kg"},
+			{"name":"50 percentile", "value":"51.7 mg/kg"},
+			{"name":"75 percentile", "value":"65.1 mg/kg"},
+			{"name":"95 percentile", "value":"90.4 mg/kg"},
+			{"name":"Maximum", "value":"487 mg/kg"},
+			{"name":"MAD", "value":"20.9 mg/kg"},
+			{"name":"Robust CV", "value":"40.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Ce_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Ce_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Ce_g3.jpg"}
+		],
+		"text": "A_Ce_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Ce_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.05 mg/kg"},
+			{"name":"Number below LLD", "value":"0"},
+			{"name":"Minimum", "value":"0.5 mg/kg"},
+			{"name":"5 percentile", "value":"17.3 mg/kg"},
+			{"name":"25 percentile", "value":"37.4 mg/kg"},
+			{"name":"50 percentile", "value":"52.2 mg/kg"},
+			{"name":"75 percentile", "value":"68.1 mg/kg"},
+			{"name":"95 percentile", "value":"101 mg/kg"},
+			{"name":"Maximum", "value":"914 mg/kg "},
+			{"name":"MAD", "value":"22.8 mg/kg"},
+			{"name":"Robust CV", "value":"43.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Ce_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Ce_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Ce_g3.jpg"}
+		],
+		"text": "C_Ce_txt.html"
+	}
+},
+  {
+	"number": 74,
+	"name": "Tungsten",
+	"small": "W",
+	"img": "W_img.png",
+	"kml": "W.kmz",
+
+	"Top5":{
+		"map": "Top5_W_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"72"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.2 mg/kg"},
+			{"name":"25 percentile", "value":"0.5 mg/kg"},
+			{"name":"50 percentile", "value":"0.8 mg/kg"},
+			{"name":"75 percentile", "value":"1.1 mg/kg"},
+			{"name":"95 percentile", "value":"2.1 mg/kg"},
+			{"name":"Maximum", "value":"1,150 mg/kg"},
+			{"name":"MAD", "value":"0.445 mg/kg"},
+			{"name":"Robust CV", "value":"55.6%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_W_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_W_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_W_g3.jpg"}
+		],
+		"text": "Top5_W_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_W_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"61"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.2 mg/kg"},
+			{"name":"25 percentile", "value":"0.5 mg/kg"},
+			{"name":"50 percentile", "value":"0.8 mg/kg"},
+			{"name":"75 percentile", "value":"1.1 mg/kg"},
+			{"name":"95 percentile", "value":"2.1 mg/kg "},
+			{"name":"Maximum", "value":"299 mg/kg "},
+			{"name":"MAD", "value":"0.445 mg/kg "},
+			{"name":"Robust CV", "value":"55.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_W_g1.jpg"},
+			{"name": "Boxplot", "file":"A_W_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_W_g3.jpg"}
+		],
+		"text": "A_W_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_W_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"140"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.2 mg/kg"},
+			{"name":"25 percentile", "value":"0.6 mg/kg"},
+			{"name":"50 percentile", "value":"0.9 mg/kg"},
+			{"name":"75 percentile", "value":"1.3 mg/kg"},
+			{"name":"95 percentile", "value":"2.6 mg/kg"},
+			{"name":"Maximum", "value":"199 mg/kg "},
+			{"name":"MAD", "value":"0.445 mg/kg "},
+			{"name":"Robust CV", "value":"49.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_W_g1.jpg"},
+			{"name": "Boxplot", "file":"C_W_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_W_g3.jpg"}
+		],
+		"text": "C_W_txt.html"
+	}
+},
+  {
+	"number": 80,
+	"name": "Mercury",
+	"small": "Hg",
+	"img": "Hg_img.png",
+	"kml": "Hg.kmz",
+
+	"Top5":{
+		"map": "Top5_Hg_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.01 mg/kg"},
+			{"name":"Number below LLD", "value":"367"},
+			{"name":"Minimum", "value":"<0.01 mg/kg"},
+			{"name":"5 percentile", "value":"<0.01 mg/kg"},
+			{"name":"25 percentile", "value":"0.01 mg/kg"},
+			{"name":"50 percentile", "value":"0.02 mg/kg"},
+			{"name":"75 percentile", "value":"0.04 mg/kg"},
+			{"name":"95 percentile", "value":"0.10 mg/kg"},
+			{"name":"Maximum", "value":"56.4 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Hg_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Hg_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Hg_g3.jpg"}
+		],
+		"text": "Top5_Hg_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Hg_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.01 mg/kg"},
+			{"name":"Number below LLD", "value":"386"},
+			{"name":"Minimum", "value":"<0.01 mg/kg"},
+			{"name":"5 percentile", "value":"<0.01 mg/kg"},
+			{"name":"25 percentile", "value":"0.01 mg/kg"},
+			{"name":"50 percentile", "value":"0.02 mg/kg"},
+			{"name":"75 percentile", "value":"0.04 mg/kg"},
+			{"name":"95 percentile", "value":"0.1 mg/kg"},
+			{"name":"Maximum", "value":"8.24 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Hg_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Hg_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Hg_g3.jpg"}
+		],
+		"text": "A_Hg_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Hg_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.01 mg/kg"},
+			{"name":"Number below LLD", "value":"752"},
+			{"name":"Minimum", "value":"<0.01 mg/kg"},
+			{"name":"5 percentile", "value":"<0.01 mg/kg"},
+			{"name":"25 percentile", "value":"0.01 mg/kg"},
+			{"name":"50 percentile", "value":"0.02 mg/kg"},
+			{"name":"75 percentile", "value":"0.03 mg/kg"},
+			{"name":"95 percentile", "value":"0.07 mg/kg"},
+			{"name":"Maximum", "value":"1.75 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Hg_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Hg_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Hg_g3.jpg"}
+		],
+		"text": "C_Hg_txt.html"
+	}
+},
+  {
+	"number": 81,
+	"name": "Thallium",
+	"small": "Tl",
+	"img": "Tl_img.png",
+	"kml": "Tl.kmz",
+
+	"Top5":{
+		"map": "Top5_Tl_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"276"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"0.3 mg/kg"},
+			{"name":"50 percentile", "value":"0.4 mg/kg"},
+			{"name":"75 percentile", "value":"0.5 mg/kg"},
+			{"name":"95 percentile", "value":"0.8 mg/kg"},
+			{"name":"Maximum", "value":"8.8 mg/kg"},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Tl_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Tl_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Tl_g3.jpg"}
+		],
+		"text": "Top5_Tl_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Tl_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"276"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"<0.1 mg/kg"},
+			{"name":"25 percentile", "value":"0.3 mg/kg"},
+			{"name":"50 percentile", "value":"0.4 mg/kg"},
+			{"name":"75 percentile", "value":"0.5 mg/kg"},
+			{"name":"95 percentile", "value":"0.8 mg/kg "},
+			{"name":"Maximum", "value":"11.5 mg/kg "},
+			{"name":"MAD", "value":"ND"},
+			{"name":"Robust CV", "value":"ND"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Tl_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Tl_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Tl_g3.jpg"}
+		],
+		"text": "A_Tl_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Tl_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"204"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.1 mg/kg"},
+			{"name":"25 percentile", "value":"0.3 mg/kg"},
+			{"name":"50 percentile", "value":"0.5 mg/kg"},
+			{"name":"75 percentile", "value":"0.6 mg/kg"},
+			{"name":"95 percentile", "value":"0.9 mg/kg "},
+			{"name":"Maximum", "value":"4.3 mg/kg "},
+			{"name":"MAD", "value":"0.148 mg/kg "},
+			{"name":"Robust CV", "value":"29.7 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Tl_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Tl_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Tl_g3.jpg"}
+		],
+		"text": "C_Tl_txt.html"
+	}
+},
+  {
+	"number": 82,
+	"name": "Lead",
+	"small": "Pb",
+	"img": "Pb_img.png",
+	"kml": "Pb.kmz",
+
+	"Top5":{
+		"map": "Top5_Pb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"2"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"7.6 mg/kg"},
+			{"name":"25 percentile", "value":"13.5 mg/kg"},
+			{"name":"50 percentile", "value":"18.1 mg/kg"},
+			{"name":"75 percentile", "value":"23.9 mg/kg"},
+			{"name":"95 percentile", "value":"44.5 mg/kg"},
+			{"name":"Maximum", "value":"12,400 mg/kg"},
+			{"name":"MAD", "value":"7.41 mg/kg"},
+			{"name":"Robust CV", "value":"41%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Pb_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Pb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Pb_g3.jpg"}
+		],
+		"text": "Top5_Pb_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Pb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"1"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"7.3 mg/kg"},
+			{"name":"25 percentile", "value":"13.2 mg/kg"},
+			{"name":"50 percentile", "value":"17.8 mg/kg"},
+			{"name":"75 percentile", "value":"23.2 mg/kg"},
+			{"name":"95 percentile", "value":"40.2 mg/kg"},
+			{"name":"Maximum", "value":"2,200 mg/kg"},
+			{"name":"MAD", "value":"7.26 mg/kg"},
+			{"name":"Robust CV", "value":"40.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Pb_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Pb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Pb_g3.jpg"}
+		],
+		"text": "A_Pb_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Pb_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.5 mg/kg"},
+			{"name":"Number below LLD", "value":"4"},
+			{"name":"Minimum", "value":"<0.5 mg/kg"},
+			{"name":"5 percentile", "value":"5.8 mg/kg"},
+			{"name":"25 percentile", "value":"11.1 mg/kg"},
+			{"name":"50 percentile", "value":"14.9 mg/kg"},
+			{"name":"75 percentile", "value":"19.2 mg/kg"},
+			{"name":"95 percentile", "value":"28.9 mg/kg"},
+			{"name":"Maximum", "value":"681 mg/kg"},
+			{"name":"MAD", "value":"6.08 mg/kg"},
+			{"name":"Robust CV", "value":"40.8 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Pb_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Pb_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Pb_g3.jpg"}
+		],
+		"text": "C_Pb_txt.html"
+	}
+},
+  {
+	"number": 83,
+	"name": "Bismuth",
+	"small": "Bi",
+	"img": "Bi_img.png",
+	"kml": "Bi.kmz",
+
+	"Top5":{
+		"map": "Top5_Bi_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.04 mg/kg"},
+			{"name":"Number below LLD", "value":"121"},
+			{"name":"Minimum", "value":"<0.04 mg/kg"},
+			{"name":"5 percentile", "value":"0.05 mg/kg"},
+			{"name":"25 percentile", "value":"0.11 mg/kg"},
+			{"name":"50 percentile", "value":"0.16 mg/kg"},
+			{"name":"75 percentile", "value":"0.23 mg/kg"},
+			{"name":"95 percentile", "value":"0.38 mg/kg"},
+			{"name":"Maximum", "value":"694 mg/kg"},
+			{"name":"MAD", "value":"0.089 mg/kg"},
+			{"name":"Robust CV", "value":"55.6%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Bi_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Bi_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Bi_g3.jpg"}
+		],
+		"text": "Top5_Bi_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Bi_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.04 mg/kg"},
+			{"name":"Number below LLD", "value":"118"},
+			{"name":"Minimum", "value":"<0.04 mg/kg"},
+			{"name":"5 percentile", "value":"0.05 mg/kg"},
+			{"name":"25 percentile", "value":"0.11 mg/kg"},
+			{"name":"50 percentile", "value":"0.16 mg/kg"},
+			{"name":"75 percentile", "value":"0.23 mg/kg"},
+			{"name":"95 percentile", "value":"0.35 mg/kg"},
+			{"name":"Maximum", "value":"129 mg/kg "},
+			{"name":"MAD", "value":"0.089 mg/kg"},
+			{"name":"Robust CV", "value":"55.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Bi_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Bi_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Bi_g3.jpg"}
+		],
+		"text": "A_Bi_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Bi_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.04 mg/kg"},
+			{"name":"Number below LLD", "value":"238"},
+			{"name":"Minimum", "value":"<0.04 mg/kg"},
+			{"name":"5 percentile", "value":"0.04 mg/kg"},
+			{"name":"25 percentile", "value":"0.11 mg/kg"},
+			{"name":"50 percentile", "value":"0.16 mg/kg"},
+			{"name":"75 percentile", "value":"0.23 mg/kg"},
+			{"name":"95 percentile", "value":"0.37 mg/kg"},
+			{"name":"Maximum", "value":"8.41 mg/kg"},
+			{"name":"MAD", "value":"0.089 mg/kg"},
+			{"name":"Robust CV", "value":"55.6 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Bi_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Bi_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Bi_g3.jpg"}
+		],
+		"text": "C_Bi_txt.html"
+	}
+},
+  {
+	"number": 90,
+	"name": "Thorium",
+	"small": "Th",
+	"img": "Th_img.png",
+	"kml": "Th.kmz",
+
+	"Top5":{
+		"map": "Top5_Th_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"2.3 mg/kg"},
+			{"name":"25 percentile", "value":"5.2 mg/kg"},
+			{"name":"50 percentile", "value":"7.6 mg/kg"},
+			{"name":"75 percentile", "value":"9.9 mg/kg"},
+			{"name":"95 percentile", "value":"14.7 mg/kg "},
+			{"name":"Maximum", "value":"78.3 mg/kg "},
+			{"name":"MAD", "value":"3.56 mg/kg"},
+			{"name":"Robust CV", "value":"46.8%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_Th_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_Th_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_Th_g3.jpg"}
+		],
+		"text": "Top5_Th_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_Th_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"2.2 mg/kg"},
+			{"name":"25 percentile", "value":"5.3 mg/kg"},
+			{"name":"50 percentile", "value":"7.7 mg/kg"},
+			{"name":"75 percentile", "value":"10.0 mg/kg"},
+			{"name":"95 percentile", "value":"14.4 mg/kg "},
+			{"name":"Maximum", "value":"84.1 mg/kg "},
+			{"name":"MAD", "value":"3.41 mg/kg"},
+			{"name":"Robust CV", "value":"44.3 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_Th_g1.jpg"},
+			{"name": "Boxplot", "file":"A_Th_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_Th_g3.jpg"}
+		],
+		"text": "A_Th_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_Th_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.2 mg/kg"},
+			{"name":"Number below LLD", "value":"3"},
+			{"name":"Minimum", "value":"<0.2 mg/kg"},
+			{"name":"5 percentile", "value":"2.4 mg/kg"},
+			{"name":"25 percentile", "value":"5.8 mg/kg"},
+			{"name":"50 percentile", "value":"8.3 mg/kg"},
+			{"name":"75 percentile", "value":"11.0 mg/kg"},
+			{"name":"95 percentile", "value":"16.1 mg/kg "},
+			{"name":"Maximum", "value":"55.9 mg/kg "},
+			{"name":"MAD", "value":"3.85 mg/kg"},
+			{"name":"Robust CV", "value":"46.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_Th_g1.jpg"},
+			{"name": "Boxplot", "file":"C_Th_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_Th_g3.jpg"}
+		],
+		"text": "C_Th_txt.html"
+	}
+},
+  {
+	"number": 92,
+	"name": "Uranium",
+	"small": "U",
+	"img": "U_img.png",
+	"kml": "U.kmz",
+
+	"Top5":{
+		"map": "Top5_U_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,841"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.7 mg/kg"},
+			{"name":"25 percentile", "value":"1.4 mg/kg"},
+			{"name":"50 percentile", "value":"2.0 mg/kg"},
+			{"name":"75 percentile", "value":"2.6 mg/kg"},
+			{"name":"95 percentile", "value":"3.9 mg/kg"},
+			{"name":"Maximum", "value":"102 mg/kg"},
+			{"name":"MAD", "value":"0.89 mg/kg"},
+			{"name":"Robust CV", "value":"44.5%"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"Top5_U_g1.jpg"},
+			{"name": "Boxplot", "file":"Top5_U_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Top5_U_g3.jpg"}
+		],
+		"text": "Top5_U_txt.html"
+	},
+
+	"A_Horizon":{
+		"map": "A_U_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,813"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.7 mg/kg"},
+			{"name":"25 percentile", "value":"1.4 mg/kg"},
+			{"name":"50 percentile", "value":"2 mg/kg"},
+			{"name":"75 percentile", "value":"2.6 mg/kg"},
+			{"name":"95 percentile", "value":"3.8 mg/kg"},
+			{"name":"Maximum", "value":"105 mg/kg "},
+			{"name":"MAD", "value":"0.89 mg/kg"},
+			{"name":"Robust CV", "value":"44.5 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"A_U_g1.jpg"},
+			{"name": "Boxplot", "file":"A_U_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"A_U_g3.jpg"}
+		],
+		"text": "A_U_txt.html"
+	},
+
+	"C_Horizon":{
+		"map": "C_U_m.png",
+		"table":[
+			{"name":"Number of samples", "value":"4,780"},
+			{"name":"LLD", "value":"0.1 mg/kg"},
+			{"name":"Number below LLD", "value":"6"},
+			{"name":"Minimum", "value":"<0.1 mg/kg"},
+			{"name":"5 percentile", "value":"0.7 mg/kg"},
+			{"name":"25 percentile", "value":"1.5 mg/kg"},
+			{"name":"50 percentile", "value":"2.1 mg/kg"},
+			{"name":"75 percentile", "value":"2.8 mg/kg"},
+			{"name":"95 percentile", "value":"4.4 mg/kg"},
+			{"name":"Maximum", "value":"63 mg/kg "},
+			{"name":"MAD", "value":"1.04 mg/kg "},
+			{"name":"Robust CV", "value":"49.4 %"}
+		],
+		"graphs":[
+			{"name": "Histogram", "file":"C_U_g1.jpg"},
+			{"name": "Boxplot", "file":"C_U_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"C_U_g3.jpg"}
+		],
+		"text": "C_U_txt.html"
+	}
+}
+]

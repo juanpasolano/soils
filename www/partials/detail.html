@@ -7,8 +7,8 @@
 		</div>
 		<div class="terrainBox">
 			<div class="horizons horizonC" ng-click="currentHorizon = 'C'" ng-class="{shown : currentHorizon == 'C'}">Horizon C</div>
-			<div class="horizons horizonB" ng-click="currentHorizon = 'B'" ng-class="{shown : currentHorizon == 'B'}">Horizon B</div>
 			<div class="horizons horizonA" ng-click="currentHorizon = 'A'" ng-class="{shown : currentHorizon == 'A'}">Horizon A</div>
+			<div class="horizons top5" ng-click="currentHorizon = '5'" ng-class="{shown : currentHorizon == '5'}">Top 5</div>
 			<div class="horizons horizonMap">Overlay map</div>
 			<!-- <div class="overlayMapMenuBox" style="display: none;">
 				<div class="overMapBtn overMapBtnSel"><span class="icon"></span>None</div>
@@ -26,40 +26,45 @@
 			<div class="map-item" ng-class="{shown : linkedOverlay != 'blank.png' }" style="z-index: 19;">
 				<img ng-src="img/maps/{{linkedOverlay}}" alt="">
 			</div>
-			<div class="map-item" ng-class="{shown : currentHorizon == 'A'}">
-				<img ng-src="img/maps/{{element.horizonA}}" alt="">
+			<div class="map-item" ng-class="{shown : currentHorizon == '5'}">
+				<img ng-src="img/maps/{{element.Top5.map}}" alt="">
 			</div>
-			<div class="map-item" ng-class="{shown : currentHorizon == 'B'}">
-				<img ng-src="img/maps/{{element.horizonB}}" alt="">
+			<div class="map-item" ng-class="{shown : currentHorizon == 'A'}">
+				<img ng-src="img/maps/{{element.A_Horizon.map}}" alt="">
 			</div>
 			<div class="map-item" ng-class="{shown : currentHorizon == 'C'}">
-				<img ng-src="img/maps/{{element.horizonC}}" alt="">
+				<img ng-src="img/maps/{{element.C_Horizon.map}}" alt="">
 			</div>
 		</div>
 
 		<div class="info-box" id="information" ng-class="{shown: infoIsOpen}">
       <a href="jsvascript:;" ng-click="infoIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
+      <div class="img">
+      	<img ng-src="img/maps/{{element.img}}" alt="">
+      </div>
       <div class="content"></div>
 		</div>
 
 		<div class="info-box" ng-class="{shown: graphsIsOpen}">
       <a href="jsvascript:;" ng-click="graphsIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
-			<h3 class="ttu">Graphs</h3>
-			<table width="100%">
-				<tr ng-repeat="row in element.table | byTowFilter">
-						<th>{{row.name}}</th>
-						<td>{{row.value}}</td>
-						<th>{{element.table[($index * 2+1)].name}}</th>
-						<td>{{element.table[($index * 2+1)].value}}</td>
-				</tr>
-			</table>
-      <div class="row collapse">
-      	<div class="column large-12 small-12">
-      	<figure ng-repeat="graph in element.graphs">
-					<img ng-src="img/maps/{{graph.file}}" alt="{{graph.name}}">
-					<figcaption>{{graph.name}}</figcaption>
-				</figure>
-      	</div>
+      <div class="content">
+				<h3 class="ttu">Graphs {{currentHorizon}}</h3>
+				<table width="100%">
+					<tr ng-repeat="row in getCurrentDetails().table | byTowFilter">
+							<th>{{row.name}}</th>
+							<td>{{row.value}}</td>
+							<th>{{element.table[($index * 2+1)].name}}</th>
+							<td>{{element.table[($index * 2+1)].value}}</td>
+					</tr>
+				</table>
+	      <div class="row collapse">
+	      	<div class="column large-12 small-12">
+	      	<figure ng-repeat="graph in getCurrentDetails().graphs">
+						<img ng-src="img/maps/{{graph.file}}" alt="{{graph.name}}">
+						<figcaption>{{graph.name}}</figcaption>
+					</figure>
+	      	</div>
+	      </div>
       </div>
 		</div>
 	</div>

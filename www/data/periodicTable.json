@@ -12,8 +12,7 @@
 					"small": "H",
 					"electrons": [
 						1
-					],
-					"hasData": true
+					]
 				},
 				{
 					"group": "Element Noble p",
@@ -41,7 +40,8 @@
 					"electrons": [
 						2,
 						1
-					]
+					],
+					"hasData": true
 				},
 				{
 					"group": "Element Alkaline s",

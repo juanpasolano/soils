@@ -942,7 +942,7 @@
   content: '\F357';
 }
 * {
-  font-family: 'Lato';
+  font-family: 'News Cycle';
 }
 body {
   width: 100%;
@@ -1130,8 +1130,8 @@ a {
   position: relative;
 }
 .detail-view .main-interaction .maps-containter {
-  width: 660px;
-  height: 480px;
+  width: 750px;
+  height: 530px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1161,9 +1161,41 @@ a {
   top: 60px;
   right: 68px;
   z-index: 5;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.detail-view .main-interaction .terrainBox:hover {
+  background: red;
+}
+.detail-view .main-interaction .terrainBox:hover .horizons:nth-child(1) {
+  -webkit-transform: translateY(15px);
+  -moz-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  -o-transform: translateY(15px);
+}
+.detail-view .main-interaction .terrainBox:hover .horizons:nth-child(2) {
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+.detail-view .main-interaction .terrainBox:hover .horizons:nth-child(3) {
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
+}
+.detail-view .main-interaction .terrainBox:hover .horizons:nth-child(4) {
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 .detail-view .main-interaction .terrainBox .horizons {
   width: 230px;
+  height: 204px;
   left: 0px;
   position: absolute;
   -webkit-transition: all 0.4s ease-out;
@@ -1177,7 +1209,7 @@ a {
 .detail-view .main-interaction .terrainBox .horizons.shown {
   opacity: 1;
 }
-.detail-view .main-interaction .terrainBox .horizonA {
+.detail-view .main-interaction .terrainBox .top5 {
   height: 81px;
   background: url(../img/horizon-A.png) no-repeat;
   line-height: 79px;
@@ -1185,7 +1217,7 @@ a {
   top: 0px;
   opacity: 0.2;
 }
-.detail-view .main-interaction .terrainBox .horizonB {
+.detail-view .main-interaction .terrainBox .horizonA {
   height: 92px;
   background: url(../img/horizon-B.png) no-repeat;
   line-height: 92px;
@@ -1238,8 +1270,6 @@ a {
   top: 0;
   right: 0;
   z-index: 20;
-  padding: 1rem 3rem;
-  text-align: justify;
   overflow-y: scroll;
   overflow-x: hidden;
   border-left: 1px solid #EEE;
@@ -1257,6 +1287,20 @@ a {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
+}
+.detail-view .info-box .img {
+  width: 100%;
+  height: 9rem;
+  overflow: hidden;
+}
+.detail-view .info-box .img img {
+  width: 100%;
+}
+.detail-view .info-box .content {
+  padding: 1rem 3rem;
+}
+.detail-view .info-box p {
+  text-align: justify;
 }
 .detail-view .info-box a {
   color: #20e9a9;
