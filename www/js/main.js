@@ -9,6 +9,10 @@ app.config([ '$routeProvider',
 			templateUrl: 'partials/home.html',
 			controller: 'HomeCtrl'
 		})
+		.when('/mineralogy', {
+			templateUrl: 'partials/mineralogy.html',
+			controller: 'MineralogyCtrl'
+		})
 		.when('/periodictable', {
 			templateUrl: 'partials/periodicTable.html',
 			controller: 'PeriodicTableCtrl'
@@ -16,6 +20,16 @@ app.config([ '$routeProvider',
 		.when('/detail/element/:id', {
 			templateUrl: 'partials/detail.html',
 			controller: 'DetailElementCtrl'
+		})
+		.when('/detail/mineralogy/:id', {
+			templateUrl: 'partials/detail.html',
+			controller: 'DetailElementCtrl'
+		})
+		.when('/about', {
+			templateUrl: 'partials/about.html'
+		})
+		.when('/downloads', {
+			templateUrl: 'partials/downloads.html'
 		})
 		.otherwise({
 			redirectTo:'/home'
@@ -25,7 +39,7 @@ app.config([ '$routeProvider',
 
 
 /*MAIN CONTROLLER*/
-app.controller('MainCtrl', function($scope) {
+app.controller('MainCtrl', function($scope, $window) {
   $scope.welcome = 'Hello world! This is HTML5 Boilerplate.';
   $scope.toggleMenu = function(){
 		var menu = $('#mainMenu');
@@ -49,7 +63,175 @@ app.controller('PeriodicTableCtrl', function($scope, DataServices){
 		$scope.elements = DataServices.substractElements(data);
 	};
 	DataServices.getPeriodicTable().success(gotElements);
+});
+/*DETAIL FO ELEMENTS CONTROLLE*/
+app.controller('DetailElementCtrl', function($scope, $compile, $http, $window, $location, $templateCache, $timeout, $rootScope, DataServices, $routeParams){
 
+	var gotElements = function(data){
+		$rootScope.elementsInfo = data;
+		getElementById();
+	};
+
+	var getElementById = function(){
+		$scope.element = _.findWhere($rootScope.elementsInfo, {"number":parseInt($routeParams.id,10)});
+		console.log($scope.element);
+		compileText();
+	};
+	var compileText = function(){
+		if($scope.element){
+			if($scope.currentHorizon == '5'){
+				$http.get('partials/'+$scope.element.Top5.text, {cache: $templateCache}).success(function(tplContent){
+					$('#information .content').html($compile(tplContent)($scope));
+				}).error(function(e){
+					console.log('Cannot load text');
+				});
+			}else if($scope.currentHorizon == 'A'){
+				$http.get('partials/'+$scope.element.A_Horizon.text, {cache: $templateCache}).success(function(tplContent){
+					$('#information .content').html($compile(tplContent)($scope));
+				}).error(function(e){
+					console.log('Cannot load text');
+				});
+			}else{
+				$http.get('partials/'+$scope.element.C_Horizon.text, {cache: $templateCache}).success(function(tplContent){
+					$('#information .content').html($compile(tplContent)($scope));
+				}).error(function(e){
+					console.log('Cannot load text');
+				});
+			}
+		}
+	};
+
+	if(!$rootScope.elementsInfo){
+		DataServices.getElemntsInfo().success(gotElements);
+	}else{
+		getElementById();
+	}
+
+	$scope.overlays = [
+		{status: false,name: 'Surface geology', img: 'mapOverlay1.png'},
+		{status: false,name: 'Bedrock geology', img: 'mapOverlay1.png'},
+		{status: false,name: 'Glacial boundaries', img: 'mapOverlay1.png'},
+		{status: false,name: 'Precipitation', img: 'mapOverlay1.png'},
+		{status: false,name: 'Soil orders', img: 'mapOverlay1.png'},
+		{status: false,name: 'Ecoregions', img: 'mapOverlay1.png'},
+		{status: false,name: 'Landcover', img: 'mapOverlay1.png'},
+		{status: false,name: 'Agriculture', img: 'mapOverlay1.png'}
+	]
+
+
+	if( $location.$$path.split('/')[2] == 'mineralogy'){
+		$scope.isMineral =  true;
+		$scope.currentHorizon = 'A';
+	}else{
+		$scope.currentHorizon = '5';
+	}
+
+
+	$scope.$watch('currentHorizon', function(){
+		compileText();
+	})
+	$scope.getCurrentDetails = function(){
+		if($scope.element){
+			if($scope.currentHorizon == '5'){
+				return $scope.element.Top5;
+			}else if($scope.currentHorizon == 'A'){
+				return $scope.element.A_Horizon;
+			}else{
+				return $scope.element.C_Horizon;
+			}
+		}
+	}
+	$scope.linkedOverlay = 'blank.png';
+	$scope.showInfoMap = function(map){
+		$scope.linkedOverlay = map;
+	};
+	$scope.hideInfoMap = function(map){
+		$scope.linkedOverlay = 'blank.png';
+	};
+
+	$scope.toggleOverlays = function(index){
+		if($scope.overlays[index].status){
+			$scope.overlays[index].status = false
+		}else{
+			angular.forEach($scope.overlays, function(value, key){
+				value.status = false;
+			});
+			$scope.overlays[index].status =  true;
+		}
+	}
+
+	$scope.toggleOverlaySelector = function(){
+		$('.overlayMapMenuBox').slideToggle(200);
+	};
+
+
+  $scope.goBack = function(){
+		if( $location.$$path.split('/')[2] == 'mineralogy'){
+			$location.path('/mineralogy');
+		}else{
+			$location.path('/periodictable');
+		}
+  }
+});
+
+app.controller('MineralogyCtrl', function($scope){
+
+});
+
+/*DATA SERVICES: for getting the data*/
+app.factory('DataServices',[ '$http', '$rootScope', '$location',
+	function($http, $rootScope, $location){
+
+		if($location.$$host == 'localhost'){
+			var server = 'http://localhost:8000/www/data/';
+		}else{
+			var server = 'http://juanpablosolano.com/usgs/data/';
+		}
+		console.log($location.$$host);
+		return {
+			getPeriodicTable :  function(){
+				console.log('getting elem');
+				return $http.get(server+'periodicTable.json')
+					.success(function(data){
+						console.log('gotElements');
+					});
+			},
+			substractElements : function(data){
+				var elements = [];
+				angular.forEach(data.table, function(value, key){
+					angular.forEach(value.elements, function(v, k){
+						elements.push(v);
+					});
+				});
+				angular.forEach(data.lanthanoids, function(value, key){
+					elements.push(value);
+				});
+				angular.forEach(data.actinoids, function(value, key){
+					elements.push(value);
+				});
+				return elements;
+			},
+			getElemntsInfo : function(){
+				return $http.get(server+'elementsInfo_FS.json')
+					.success(function(data){
+						console.log('gotElementsInfo');
+					});
+			}
+		};
+	}
+]);
+
+/*FILTERS*/
+app.filter("byTowFilter", function(){
+  return function(input, test){
+		if(input){
+			var newArray = [];
+			for(var x = 0; x < input.length; x+=2){
+				newArray.push(input[x]);
+			}
+			return newArray;
+		}
+  };
 });
 
 /*PERIODIC TABLE DIRECTIVE*/
@@ -110,153 +292,4 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 			};
 		}
 	};
-});
-
-
-/*DETAIL FO ELEMENTS CONTROLLE*/
-app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateCache, $timeout, $rootScope, DataServices, $routeParams){
-
-	var gotElements = function(data){
-		$rootScope.elementsInfo = data;
-		getElementById();
-	};
-
-	var getElementById = function(){
-		$scope.element = _.findWhere($rootScope.elementsInfo, {"number":parseInt($routeParams.id,10)});
-		console.log($scope.element);
-		compileText();
-	};
-	var compileText = function(){
-		if($scope.element){
-			if($scope.currentHorizon == '5'){
-				$http.get('partials/'+$scope.element.Top5.text, {cache: $templateCache}).success(function(tplContent){
-					$('#information .content').html($compile(tplContent)($scope));
-				}).error(function(e){
-					console.log('Cannot load text');
-				});
-			}else if($scope.currentHorizon == 'A'){
-				$http.get('partials/'+$scope.element.A_Horizon.text, {cache: $templateCache}).success(function(tplContent){
-					$('#information .content').html($compile(tplContent)($scope));
-				}).error(function(e){
-					console.log('Cannot load text');
-				});
-			}else{
-				$http.get('partials/'+$scope.element.C_Horizon.text, {cache: $templateCache}).success(function(tplContent){
-					$('#information .content').html($compile(tplContent)($scope));
-				}).error(function(e){
-					console.log('Cannot load text');
-				});
-			}
-		}
-	};
-
-	if(!$rootScope.elementsInfo){
-		DataServices.getElemntsInfo().success(gotElements);
-	}else{
-		getElementById();
-	}
-
-	$scope.overlays = [
-		{status: false,name: 'Surface geology', img: 'mapOverlay1.png'},
-		{status: false,name: 'Bedrock geology', img: 'mapOverlay1.png'},
-		{status: false,name: 'Glacial boundaries', img: 'mapOverlay1.png'},
-		{status: false,name: 'Precipitation', img: 'mapOverlay1.png'},
-		{status: false,name: 'Soil orders', img: 'mapOverlay1.png'},
-		{status: false,name: 'Ecoregions', img: 'mapOverlay1.png'},
-		{status: false,name: 'Landcover', img: 'mapOverlay1.png'},
-		{status: false,name: 'Agriculture', img: 'mapOverlay1.png'}
-	]
-
-	$scope.currentHorizon = '5';
-	$scope.$watch('currentHorizon', function(){
-		compileText();
-	})
-	$scope.getCurrentDetails = function(){
-		if($scope.element){
-			if($scope.currentHorizon == '5'){
-				return $scope.element.Top5;
-			}else if($scope.currentHorizon == 'A'){
-				return $scope.element.A_Horizon;
-			}else{
-				return $scope.element.C_Horizon;
-			}
-		}
-	}
-	$scope.linkedOverlay = 'blank.png';
-	$scope.showInfoMap = function(map){
-		$scope.linkedOverlay = map;
-	};
-	$scope.hideInfoMap = function(map){
-		$scope.linkedOverlay = 'blank.png';
-	};
-
-	$scope.toggleOverlays = function(index){
-		if($scope.overlays[index].status){
-			$scope.overlays[index].status = false
-		}else{
-			angular.forEach($scope.overlays, function(value, key){
-				value.status = false;
-			});
-			$scope.overlays[index].status =  true;
-		}
-	}
-
-	$scope.toggleOverlaySelector = function(){
-		$('.overlayMapMenuBox').slideToggle(200);
-	};
-});
-
-/*DATA SERVICES: for getting the data*/
-app.factory('DataServices',[ '$http', '$rootScope', '$location',
-	function($http, $rootScope, $location){
-
-		if($location.$$host == 'localhost'){
-			var server = 'http://localhost:8000/www/data/';
-		}else{
-			var server = 'http://juanpablosolano.com/usgs/data/';
-		}
-		console.log($location.$$host);
-		return {
-			getPeriodicTable :  function(){
-				return $http.get(server+'periodicTable.json')
-					.success(function(data){
-						console.log('gotElements');
-					});
-			},
-			substractElements : function(data){
-				var elements = [];
-				angular.forEach(data.table, function(value, key){
-					angular.forEach(value.elements, function(v, k){
-						elements.push(v);
-					});
-				});
-				angular.forEach(data.lanthanoids, function(value, key){
-					elements.push(value);
-				});
-				angular.forEach(data.actinoids, function(value, key){
-					elements.push(value);
-				});
-				return elements;
-			},
-			getElemntsInfo : function(){
-				return $http.get(server+'elementsInfo_FS.json')
-					.success(function(data){
-						console.log('gotElementsInfo');
-					});
-			}
-		};
-	}
-]);
-
-/*FILTERS*/
-app.filter("byTowFilter", function(){
-    return function(input, test){
-			if(input){
-				var newArray = [];
-				for(var x = 0; x < input.length; x+=2){
-					newArray.push(input[x]);
-				}
-				return newArray;
-			}
-    };
 });

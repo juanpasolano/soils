@@ -1,15 +1,20 @@
 <div class="detail-view clearfix">
+	<a href="javascript:;" ng-click="goBack()" class="backbtn entypo-font">&#59233;</a>
 	<h1 class="tac ttu maintitle">{{element.name}}</h1>
 	<div class="main-interaction">
 		<div class="links">
-			<a href="" class="box-link" ng-click="infoIsOpen=true;graphsIsOpen=false">Information</a>
+			<a href="" class="box-link" ng-click="infoIsOpen=true;graphsIsOpen=false">Comments</a>
 			<a href="" class="box-link" ng-click="infoIsOpen=false;graphsIsOpen=true">Statistics</a>
 		</div>
+
 		<div class="terrainBox">
 			<div class="horizons horizonC" ng-click="currentHorizon = 'C'" ng-class="{shown : currentHorizon == 'C'}">Horizon C</div>
 			<div class="horizons horizonA" ng-click="currentHorizon = 'A'" ng-class="{shown : currentHorizon == 'A'}">Horizon A</div>
-			<div class="horizons top5" ng-click="currentHorizon = '5'" ng-class="{shown : currentHorizon == '5'}">Top 5</div>
+
+			<div class="horizons top5" ng-hide="isMineral" ng-click="currentHorizon = '5'" ng-class="{shown : currentHorizon == '5'}">Top 5</div>
+			<div class="horizons top5 no-hover" ng-show="isMineral">Top 5</div>
 			<div class="horizons horizonMap" ng-click="toggleOverlaySelector()">Overlay map</div>
+
 			<div class="overlayMapMenuBox" ng-mouseleave="toggleOverlaySelector()">
 				<div class="row collapse" ng-repeat="overlay in overlays" ng-click="toggleOverlays($index)">
 					<div class="column small-5">
@@ -25,6 +30,7 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="maps-containter">
 			<div class="map-item map-overlay" ng-class="{shown : overlay.status == true}" class="shown" ng-repeat="overlay in overlays">
 				<img ng-src="img/maps/{{overlay.img}}" alt="">
