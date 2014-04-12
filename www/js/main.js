@@ -49,6 +49,7 @@ app.controller('PeriodicTableCtrl', function($scope, DataServices){
 		$scope.elements = DataServices.substractElements(data);
 	};
 	DataServices.getPeriodicTable().success(gotElements);
+
 });
 
 /*PERIODIC TABLE DIRECTIVE*/
@@ -111,14 +112,50 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 	};
 });
 
-app.controller('DetailElementCtrl', function($scope){
 
+
+app.controller('DetailElementCtrl', function($scope, $compile, $http, $templateCache, $timeout, $rootScope, DataServices, $routeParams){
+
+	var gotElements = function(data){
+		$rootScope.elementsInfo = data;
+		getElement();
+	};
+
+	var getElement = function(){
+		$scope.element = _.findWhere($rootScope.elementsInfo, {"number":parseInt($routeParams.id,10)});
+		compileText();
+	};
+	var compileText = function(){
+		$http.get('partials/'+$scope.element.text, {cache: $templateCache}).success(function(tplContent){
+			$('#information .content').append($compile(tplContent)($scope));
+		}).error(function(e){
+			console.log('Cannot load text');
+		});
+	};
+
+	if(!$rootScope.elementsInfo){
+		DataServices.getElemntsInfo().success(gotElements);
+	}else{
+		getElement();
+	}
+
+
+	$scope.currentHorizon = 'A';
+
+	$scope.linkedOverlay = 'blank.png';
+	$scope.showInfoMap = function(map){
+		$scope.linkedOverlay = map;
+	};
+	$scope.hideInfoMap = function(map){
+		$scope.linkedOverlay = 'blank.png';
+	};
 });
 
 /*DATA SERVICES: for getting the data*/
 app.factory('DataServices',[ '$http', '$rootScope',
 	function($http, $rootScope){
 		var server = 'http://juanpablosolano.com/usgs/data/';
+		// var server = 'http://juanpablosolano.com/usgs/data/';
 		return {
 			getPeriodicTable :  function(){
 				return $http.get(server+'periodicTable.json')
@@ -140,10 +177,29 @@ app.factory('DataServices',[ '$http', '$rootScope',
 					elements.push(value);
 				});
 				return elements;
+			},
+			getElemntsInfo : function(){
+				return $http.get(server+'elementsInfo.json')
+					.success(function(data){
+						console.log('gotElementsInfo');
+					});
 			}
 		};
 	}
 ]);
+
+
+app.filter("byTowFilter", function(){
+    return function(input, test){
+			if(input){
+				var newArray = [];
+				for(var x = 0; x < input.length; x+=2){
+					newArray.push(input[x]);
+				}
+				return newArray;
+			}
+    };
+});
 
 
 

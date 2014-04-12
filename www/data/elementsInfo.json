@@ -1,0 +1,52 @@
+[
+    {
+		"number": 1,
+		"name": "Hydrogen",
+		"small": "H",
+
+		"horizonA": "horizonA.png",
+		"horizonB": "horizonB.png",
+		"horizonC": "horizonC.png",
+
+		"table":[
+			{"name":"n", "value":"1234"},
+			{"name":"Minimum", "value":"345.23"},
+			{"name":"Maximum", "value":"1439.21"},
+			{"name":"Median", "value":"451.2"},
+			{"name":"Mean", "value":"36.2"},
+			{"name":"MAS", "value":"547"},
+			{"name":"LDL", "value":"23"},
+			{"name":"n below LDL", "value":"73"}
+		],
+
+		"graphs":[
+			{"name": "Name of graph", "file":"graph1.jpg"},
+			{"name": "Name of graph2", "file":"graph1.jpg"},
+			{"name": "Name of graph3", "file":"graph1.jpg"}
+		],
+
+		"text": "textFile.html"
+	},
+	{
+		"number": 7,
+		"name": "Nitrogen",
+		"small": "N",
+
+		"horizonA": "horizonA.png",
+		"horizonB": "horizonB.png",
+		"horizonC": "horizonC.png",
+
+		"table":[
+			{"name":"n", "value":"1234"},
+			{"name":"Minimum", "value":"1234"}
+		],
+
+		"graphs":[
+			{"name": "Name of graph", "file":"graph1.jpg"},
+			{"name": "Name of graph2", "file":"graph1.jpg"},
+			{"name": "Name of graph3", "file":"graph1.jpg"}
+		],
+
+		"text": "textFile.html"
+	}
+]

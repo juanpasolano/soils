@@ -9,6 +9,12 @@
 // @mainFont : 'Alegreya Sans';
 // @mainFont : 'Sintony';
 // @mainFont : 'Belleza';
+
+
+
+@green: #20E9A9;
+
+
 *{
 	font-family: @mainFont;
 }
@@ -126,11 +132,11 @@ a{
 		position: relative;
 		text-align: center;
 		&.hasData{
-			background: #20E9A9;
+			background: @green;
 			.transform(translate3d(0,0,0));
 			.transition(all .2s ease-out);
 			&:hover{
-				.transform(scale(1.2));
+				.transform(scale(1.5));
 				z-index: 10;
 			}
 			.number, .small{
@@ -173,7 +179,7 @@ a{
 		font-size: 3rem;
 	}
 	.main-interaction{
-		width: 890px;
+		width:1000px;
 		height: 550px;
 		margin: 0 auto;
 		position: relative;
@@ -189,6 +195,11 @@ a{
 				left: 0;
 				width: 100%;
 				height: 100%;
+				opacity: 0;
+				.transition(all .5s ease-out);
+				&.shown{
+					opacity: 1;
+				}
 				img{
 					width: 100%;
 					height: 100%;
@@ -199,12 +210,19 @@ a{
 			width:178px;
 			position:absolute;
 			top: 60px;
-			right: 18px;
+			right: 68px;
 			z-index:5;
 			.horizons{
 				width:230px;
 				left:0px;
 				position: absolute;
+				.transition(all .4s ease-out);
+				&:hover{
+					opacity: 0.7;
+				}
+				&.shown{
+					opacity: 1;
+				}
 			}
 			.horizonA {
 				height:81px;
@@ -212,7 +230,7 @@ a{
 				line-height: 79px;
 				text-indent: 131px;
 				top:0px;
-				opacity:1
+				opacity:0.2
 			}
 			.horizonB {
 				height:92px;
@@ -220,7 +238,7 @@ a{
 				line-height: 92px;
 				text-indent: 129px;
 				top:50px;
-				opacity:0.5
+				opacity:0.2
 			}
 			.horizonC{
 				height:92px;
@@ -228,10 +246,10 @@ a{
 				line-height: 92px;
 				text-indent: 129px;
 				top:113px;
-				opacity:0.5
+				opacity:0.2
 			}
 			.horizonMap{
-				height:81px;
+				height:62px;
 				background:url(../img/ovarlayMapIcon.png) no-repeat;
 				line-height: 58px;
 				text-indent: 129px;
@@ -244,7 +262,7 @@ a{
 			height: 100px;
 			position: absolute;
 			top: 350px;
-			right: 0;
+			right: 50px;
 			.box-link{
 				text-transform: uppercase;
 				text-align: center;
@@ -258,6 +276,54 @@ a{
 					background: black;
 					color:white;
 				}
+			}
+		}
+	}
+	.info-box{
+		width: 500px;
+		height: 100%;
+		position: fixed;
+		background: white;
+		top: 0;
+		right: 0;
+		z-index: 20;
+		padding: 1rem 3rem;
+		text-align: justify;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		border-left: 1px solid #EEE;
+		.transform(translate3d(100%,0,0));
+		.transition(all .3s ease-out);
+		&.shown{
+			.transform(translate3d(0,0,0));
+		}
+		a{
+			color:@green;
+		}
+		.closeBtn {
+			@h:3rem;
+			width: @h;
+			height: @h;
+			top: 0;
+			right: 0;
+			background: black;
+			color: white;
+			display: block;
+			text-align: center;
+			line-height: @h;
+			font-size: 4.2rem;
+			position: absolute;
+		}
+		figure{
+			display: block;
+			margin: 0;
+			border-bottom: 1px solid #EEE;
+			margin-bottom: 1.5rem;
+			padding-bottom: 1.5rem;
+			figcaption{
+				margin-top: 0.7rem;
+				text-align: center;
+				font-size: 0.9rem;
 			}
 		}
 	}

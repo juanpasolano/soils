@@ -1066,7 +1066,7 @@ a {
   text-align: center;
 }
 [mb-periodic-table] .element.hasData {
-  background: #20E9A9;
+  background: #20e9a9;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
@@ -1077,10 +1077,10 @@ a {
   -o-transition: all 0.2s ease-out;
 }
 [mb-periodic-table] .element.hasData:hover {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
   z-index: 10;
 }
 [mb-periodic-table] .element.hasData .number,
@@ -1124,7 +1124,7 @@ a {
   font-size: 3rem;
 }
 .detail-view .main-interaction {
-  width: 890px;
+  width: 1000px;
   height: 550px;
   margin: 0 auto;
   position: relative;
@@ -1142,6 +1142,14 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+.detail-view .main-interaction .maps-containter .map-item.shown {
+  opacity: 1;
 }
 .detail-view .main-interaction .maps-containter .map-item img {
   width: 100%;
@@ -1151,13 +1159,23 @@ a {
   width: 178px;
   position: absolute;
   top: 60px;
-  right: 18px;
+  right: 68px;
   z-index: 5;
 }
 .detail-view .main-interaction .terrainBox .horizons {
   width: 230px;
   left: 0px;
   position: absolute;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+}
+.detail-view .main-interaction .terrainBox .horizons:hover {
+  opacity: 0.7;
+}
+.detail-view .main-interaction .terrainBox .horizons.shown {
+  opacity: 1;
 }
 .detail-view .main-interaction .terrainBox .horizonA {
   height: 81px;
@@ -1165,7 +1183,7 @@ a {
   line-height: 79px;
   text-indent: 131px;
   top: 0px;
-  opacity: 1;
+  opacity: 0.2;
 }
 .detail-view .main-interaction .terrainBox .horizonB {
   height: 92px;
@@ -1173,7 +1191,7 @@ a {
   line-height: 92px;
   text-indent: 129px;
   top: 50px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 .detail-view .main-interaction .terrainBox .horizonC {
   height: 92px;
@@ -1181,10 +1199,10 @@ a {
   line-height: 92px;
   text-indent: 129px;
   top: 113px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 .detail-view .main-interaction .terrainBox .horizonMap {
-  height: 81px;
+  height: 62px;
   background: url(../img/ovarlayMapIcon.png) no-repeat;
   line-height: 58px;
   text-indent: 129px;
@@ -1196,7 +1214,7 @@ a {
   height: 100px;
   position: absolute;
   top: 350px;
-  right: 0;
+  right: 50px;
 }
 .detail-view .main-interaction .links .box-link {
   text-transform: uppercase;
@@ -1211,4 +1229,60 @@ a {
 .detail-view .main-interaction .links .box-link:hover {
   background: black;
   color: white;
+}
+.detail-view .info-box {
+  width: 500px;
+  height: 100%;
+  position: fixed;
+  background: white;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  padding: 1rem 3rem;
+  text-align: justify;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-left: 1px solid #EEE;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.detail-view .info-box.shown {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+.detail-view .info-box a {
+  color: #20e9a9;
+}
+.detail-view .info-box .closeBtn {
+  width: 3rem;
+  height: 3rem;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 4.2rem;
+  position: absolute;
+}
+.detail-view .info-box figure {
+  display: block;
+  margin: 0;
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.detail-view .info-box figure figcaption {
+  margin-top: 0.7rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
