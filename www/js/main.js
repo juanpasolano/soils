@@ -80,19 +80,19 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $window, $
 	var compileText = function(){
 		if($scope.element){
 			if($scope.currentHorizon == '5'){
-				$http.get('partials/'+$scope.element.Top5.text, {cache: $templateCache}).success(function(tplContent){
+				$http.get('assets/'+$scope.element.Top5.text, {cache: $templateCache}).success(function(tplContent){
 					$('#information .content').html($compile(tplContent)($scope));
 				}).error(function(e){
 					console.log('Cannot load text');
 				});
 			}else if($scope.currentHorizon == 'A'){
-				$http.get('partials/'+$scope.element.A_Horizon.text, {cache: $templateCache}).success(function(tplContent){
+				$http.get('assets/'+$scope.element.A_Horizon.text, {cache: $templateCache}).success(function(tplContent){
 					$('#information .content').html($compile(tplContent)($scope));
 				}).error(function(e){
 					console.log('Cannot load text');
 				});
 			}else{
-				$http.get('partials/'+$scope.element.C_Horizon.text, {cache: $templateCache}).success(function(tplContent){
+				$http.get('assets/'+$scope.element.C_Horizon.text, {cache: $templateCache}).success(function(tplContent){
 					$('#information .content').html($compile(tplContent)($scope));
 				}).error(function(e){
 					console.log('Cannot load text');
@@ -108,14 +108,15 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $window, $
 	}
 
 	$scope.overlays = [
-		{status: false,name: 'Surface geology', img: 'mapOverlay1.png'},
-		{status: false,name: 'Bedrock geology', img: 'mapOverlay1.png'},
-		{status: false,name: 'Glacial boundaries', img: 'mapOverlay1.png'},
-		{status: false,name: 'Precipitation', img: 'mapOverlay1.png'},
-		{status: false,name: 'Soil orders', img: 'mapOverlay1.png'},
-		{status: false,name: 'Ecoregions', img: 'mapOverlay1.png'},
-		{status: false,name: 'Landcover', img: 'mapOverlay1.png'},
-		{status: false,name: 'Agriculture', img: 'mapOverlay1.png'}
+		{status: false,name: 'Physiography', img: 'Physiography.png'},
+		{status: false,name: 'Glacial Limits', img: 'Glacial_Limits.png'},
+		{status: false,name: 'Geology', img: 'Geology.png'}
+		// {status: false,name: 'Glacial boundaries', img: 'mapOverlay1.png'},
+		// {status: false,name: 'Precipitation', img: 'mapOverlay1.png'},
+		// {status: false,name: 'Soil orders', img: 'mapOverlay1.png'},
+		// {status: false,name: 'Ecoregions', img: 'mapOverlay1.png'},
+		// {status: false,name: 'Landcover', img: 'mapOverlay1.png'},
+		// {status: false,name: 'Agriculture', img: 'mapOverlay1.png'}
 	]
 
 

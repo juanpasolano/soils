@@ -1,10 +1,12 @@
 <div class="detail-view clearfix">
 	<a href="javascript:;" ng-click="goBack()" class="backbtn entypo-font">&#59233;</a>
 	<h1 class="tac ttu maintitle">{{element.name}}</h1>
+	<div class="spacer-5"></div>
 	<div class="main-interaction">
 		<div class="links">
 			<a href="" class="box-link" ng-click="infoIsOpen=true;graphsIsOpen=false">Comments</a>
 			<a href="" class="box-link" ng-click="infoIsOpen=false;graphsIsOpen=true">Statistics</a>
+			<a href="assets/{{element.kml}}" target="_blank" class="box-link">DOWNLOAD KML <br> <small>(Opens with Google Earth)</small></a>
 		</div>
 
 		<div class="terrainBox">
@@ -33,26 +35,26 @@
 
 		<div class="maps-containter">
 			<div class="map-item map-overlay" ng-class="{shown : overlay.status == true}" class="shown" ng-repeat="overlay in overlays">
-				<img ng-src="img/maps/{{overlay.img}}" alt="">
+				<img ng-src="assets/Overlays/{{overlay.img}}" alt="">
 			</div>
 			<div class="map-item" ng-class="{shown : linkedOverlay != 'blank.png' }" style="z-index: 19;">
 				<img ng-src="img/maps/{{linkedOverlay}}" alt="">
 			</div>
 			<div class="map-item" ng-class="{shown : currentHorizon == '5'}">
-				<img ng-src="img/maps/{{element.Top5.map}}" alt="">
+				<img ng-src="assets/{{element.Top5.map}}" alt="">
 			</div>
 			<div class="map-item" ng-class="{shown : currentHorizon == 'A'}">
-				<img ng-src="img/maps/{{element.A_Horizon.map}}" alt="">
+				<img ng-src="assets/{{element.A_Horizon.map}}" alt="">
 			</div>
 			<div class="map-item" ng-class="{shown : currentHorizon == 'C'}">
-				<img ng-src="img/maps/{{element.C_Horizon.map}}" alt="">
+				<img ng-src="assets/{{element.C_Horizon.map}}" alt="">
 			</div>
 		</div>
 
 		<div class="info-box" id="information" ng-class="{shown: infoIsOpen}">
       <a href="jsvascript:;" ng-click="infoIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
       <div class="img">
-      	<img ng-src="img/maps/{{element.img}}" alt="">
+      	<img ng-src="assets/{{element.img}}" alt="">
       </div>
       <div class="content"></div>
 		</div>
@@ -76,7 +78,7 @@
 	      <div class="row collapse">
 	      	<div class="column large-12 small-12">
 	      	<figure ng-repeat="graph in getCurrentDetails().graphs">
-						<img ng-src="img/maps/{{graph.file}}" alt="{{graph.name}}">
+						<img ng-src="assets/{{graph.file}}" alt="{{graph.name}}">
 						<figcaption>{{graph.name}}</figcaption>
 					</figure>
 	      	</div>

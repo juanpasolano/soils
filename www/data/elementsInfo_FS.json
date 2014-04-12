@@ -556,11 +556,11 @@
 	"number": 19,
 	"name": "Potassium",
 	"small": "K",
-	"img": "K_img.png",
-	"kml": "K.kmz",
+	"img": "Potassium/K_img.jpg",
+	"kml": "Potassium/K.kmz",
 
 	"Top5":{
-		"map": "Top5_K_m.png",
+		"map": "Potassium/Top5_K_m.png",
 		"table":[
 			{"name":"Number of samples", "value":"4,841"},
 			{"name":"LLD", "value":"0.01 wt. %"},
@@ -576,15 +576,15 @@
 			{"name":"Robust CV", "value":"43.8%"}
 		],
 		"graphs":[
-			{"name": "Histogram", "file":"Top5_K_g1.jpg"},
-			{"name": "Boxplot", "file":"Top5_K_g2.jpg"},
-			{"name": "Empirical cumulative distribution function", "file":"Top5_K_g3.jpg"}
+			{"name": "Histogram", "file":"Potassium/Top5_K_g1.jpg"},
+			{"name": "Boxplot", "file":"Potassium/Top5_K_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Potassium/Top5_K_g3.jpg"}
 		],
-		"text": "Top5_K_txt.html"
+		"text": "Potassium/Top5_K_txt.html"
 	},
 
 	"A_Horizon":{
-		"map": "A_K_m.png",
+		"map": "Potassium/A_K_m.png",
 		"table":[
 			{"name":"Number of samples", "value":"4,813"},
 			{"name":"LLD", "value":"0.01 wt. %"},
@@ -600,15 +600,15 @@
 			{"name":"Robust CV", "value":"43.5 %"}
 		],
 		"graphs":[
-			{"name": "Histogram", "file":"A_K_g1.jpg"},
-			{"name": "Boxplot", "file":"A_K_g2.jpg"},
-			{"name": "Empirical cumulative distribution function", "file":"A_K_g3.jpg"}
+			{"name": "Histogram", "file":"Potassium/A_K_g1.jpg"},
+			{"name": "Boxplot", "file":"Potassium/A_K_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Potassium/A_K_g3.jpg"}
 		],
-		"text": "A_K_txt.html"
+		"text": "Potassium/A_K_txt.html"
 	},
 
 	"C_Horizon":{
-		"map": "C_K_m.png",
+		"map": "Potassium/C_K_m.png",
 		"table":[
 			{"name":"Number of samples", "value":"4,780"},
 			{"name":"LLD", "value":"0.01 wt. %"},
@@ -624,11 +624,11 @@
 			{"name":"Robust CV", "value":"44.6 %"}
 		],
 		"graphs":[
-			{"name": "Histogram", "file":"C_K_g1.jpg"},
-			{"name": "Boxplot", "file":"C_K_g2.jpg"},
-			{"name": "Empirical cumulative distribution function", "file":"C_K_g3.jpg"}
+			{"name": "Histogram", "file":"Potassium/C_K_g1.jpg"},
+			{"name": "Boxplot", "file":"Potassium/C_K_g2.jpg"},
+			{"name": "Empirical cumulative distribution function", "file":"Potassium/C_K_g3.jpg"}
 		],
-		"text": "C_K_txt.html"
+		"text": "Potassium/C_K_txt.html"
 	}
 },
 {
