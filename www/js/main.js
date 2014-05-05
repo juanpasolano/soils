@@ -108,9 +108,11 @@ app.controller('DetailElementCtrl', function($scope, $compile, $http, $window, $
 	}
 
 	$scope.overlays = [
-		{status: false,name: 'Physiography', img: 'Physiography.png'},
-		{status: false,name: 'Glacial Limits', img: 'Glacial_Limits.png'},
-		{status: false,name: 'Geology', img: 'Geology.png'}
+		{status: false,name: 'Physiography', img: 'Physiography.jpg'},
+		{status: false,name: 'Glacial Limits', img: 'Glacial_Limits.jpg'},
+		{status: false,name: 'Geology', img: 'Geology.jpg'},
+		{status: false,name: 'MLRAs', img: 'MLRAs.jpg'},
+		{status: false,name: 'Precipitation', img: 'Precipitation.jpg'}
 		// {status: false,name: 'Glacial boundaries', img: 'mapOverlay1.png'},
 		// {status: false,name: 'Precipitation', img: 'mapOverlay1.png'},
 		// {status: false,name: 'Soil orders', img: 'mapOverlay1.png'},
