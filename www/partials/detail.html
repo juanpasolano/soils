@@ -1,5 +1,5 @@
 <div class="detail-view clearfix">
-	<a href="javascript:;" ng-click="goBack()" class="backbtn entypo-font">&#59233;</a>
+	<a href="" ng-click="goBack()" class="backbtn entypo-font">&#59233;</a>
 	<h1 class="tac ttu maintitle">{{element.name}}</h1>
 	<div class="spacer-5"></div>
 	<div class="main-interaction">
@@ -7,6 +7,8 @@
 			<a href="" class="box-link" ng-click="infoIsOpen=true;graphsIsOpen=false">Comments</a>
 			<a href="" class="box-link" ng-click="infoIsOpen=false;graphsIsOpen=true">Statistics</a>
 			<a href="assets/{{element.kml}}" target="_blank" class="box-link">DOWNLOAD KML <br> <small>(Opens with Google Earth)</small></a>
+            <a href="assets/{{element.pdf}}" target="_blank" class="box-link">DOWNLOAD PDF</a>
+            <a href="assets/{{element.tiff}}" target="_blank" class="box-link">DOWNLOAD TIFF</a>
 		</div>
 
 		<div class="terrainBox">
@@ -52,7 +54,7 @@
 		</div>
 
 		<div class="info-box" id="information" ng-class="{shown: infoIsOpen}">
-      <a href="jsvascript:;" ng-click="infoIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
+      <a href="" ng-click="infoIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
       <div class="img">
       	<img ng-src="assets/{{element.img}}" alt="">
       </div>
@@ -60,7 +62,7 @@
 		</div>
 
 		<div class="info-box" ng-class="{shown: graphsIsOpen}">
-      <a href="jsvascript:;" ng-click="graphsIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
+      <a href="" ng-click="graphsIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
       <div class="content">
 				<h3 class="ttu">Statistics {{currentHorizon}}</h3>
 				<table width="100%">

@@ -148,6 +148,54 @@ h1.maintitle{
 	border-bottom: 1px solid #fafafa;
 }
 /*PERIODIC TABLE*/
+
+
+
+.periofic-info-box{
+  width: 500px;
+  height: 100%;
+  position: fixed;
+  background: white;
+  top: 0;
+  right: 0;
+  z-index: 90;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-left: 1px solid #EEE;
+  .transform(translate3d(100%,0,0));
+  .transition(all .3s ease-out);
+  &.shown{
+    .transform(translate3d(0,0,0));
+  }
+  .img{
+    width: 100%;
+    height: 9rem;
+    overflow: hidden;
+    img{
+      width: 100%;
+    }
+  }
+  .content{
+    padding: 1rem 3rem;
+  }
+  p{
+    text-align: justify;
+  }
+  .closeBtn {
+    @h:3rem;
+    width: @h;
+    height: @h;
+    top: 0;
+    right: 0;
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: @h;
+    font-size: 4.2rem;
+    position: absolute;
+  }
+}
 [mb-periodic-table]{
 	@w:1000px;
 	width: @w;
@@ -173,6 +221,7 @@ h1.maintitle{
 			.transform(translate3d(0,0,0));
 			.transition(all .2s ease-out);
 			&:hover{
+                .drop-shadow();
 				.transform(scale(1.5));
 				z-index: 10;
 			}
@@ -181,6 +230,39 @@ h1.maintitle{
 				font-weight: bold;
 			}
 		}
+        &.carbon{
+          background: #23232a;
+          position: absolute;
+          border-radius: 50%;
+          color:white;
+          .transform(scale(.8));
+          .transition(all .2s ease-out);
+          &:hover{
+            .transform(scale(1));
+          }
+          .name{
+            margin-top: 1.9em;
+          }
+          &:nth-child(1){
+            bottom: 0px;
+            left: -28px;
+          }
+          &:nth-child(2){
+            bottom: -19px;
+            left: 22px;
+          }
+          &:nth-child(3){
+            bottom: 0px;
+            right: -28px;
+          }
+        }
+        .subElems{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: -23px;
+        }
 		.number{
 			position: absolute;
 			top: 0.2em;
@@ -259,7 +341,7 @@ h1.maintitle{
 		.terrainBox {
 			width:178px;
 			position:absolute;
-			top: 100px;
+			top: 60px;
 			right: 68px;
 			z-index: 85;
 			.transition(all .5s ease-in-out);
@@ -327,7 +409,7 @@ h1.maintitle{
 				opacity:0.2
 			}
 			.overlayMapMenuBox {
-				width: 280px;
+				width: 230px;
 				height: auto;
 				padding: 20px;
 				background: darken(white, 5%);
@@ -363,16 +445,16 @@ h1.maintitle{
 			width: 200px;
 			height: 100px;
 			position: absolute;
-			top: 350px;
+			top: 290px;
 			right: 50px;
 			.box-link{
 				text-transform: uppercase;
-				text-align: center;
-				display: block;
-				padding: 0.5em 1em 1em;
-				border: 2px solid black;
-				color: black;
-				margin-bottom: 1rem;
+                text-align: center;
+                display: block;
+                padding: 0.6em 1em;
+                border: 2px solid #F3F3F3;
+                color: #000;
+                margin-bottom: 0.3rem;
 				text-decoration: none;
 				.transition(all .3s);
 				&:hover{
@@ -398,6 +480,10 @@ h1.maintitle{
 		&.shown{
 			.transform(translate3d(0,0,0));
 		}
+        table td, table th{
+          padding: 0.3625rem 0.625rem;
+          font-size: 0.775rem;
+        }
 		.img{
 			width: 100%;
 			height: 9rem;
@@ -435,10 +521,12 @@ h1.maintitle{
 			border-bottom: 1px solid #EEE;
 			margin-bottom: 1.5rem;
 			padding-bottom: 1.5rem;
+            text-align: center;
 			figcaption{
 				margin-top: 0.7rem;
 				text-align: center;
-				font-size: 0.9rem;
+				font-size: 1.7rem;
+                font-weight: 300;
 			}
 		}
 	}

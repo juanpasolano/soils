@@ -557,7 +557,8 @@
 	"name": "Potassium",			
 	"small": "K",			
 	"img": "Potassium/K_img.jpg",			
-	"kml": "Potassium/K.kmz",			
+	"kml": "Potassium/K.kmz",
+	"tif": "Potassium/K_tif.zip",
 				
 	"Top5":{			
 		"map": "Potassium/Top5_K_m.png",		
@@ -577,8 +578,8 @@
 		],		
 		"graphs":[		
 			{"name": "Histogram", "file":"Potassium/Top5_K_g1.jpg"},	
-			{"name": "Boxplot", "file":"Potassium/Top5_K_g2.jpg"},	
-			{"name": "Empirical cumulative distribution function", "file":"Potassium/Top5_K_g3.jpg"}	
+			{"name": "Boxplot", "file":"Potassium/Top5_K_g2.jpg", "title":"Calculated boxplot"},	
+			{"name": "Empirical cumulative distribution function", "file":"Potassium/Top5_K_g3.jpg", "title":"Empirical cumulative distribution function"}	
 		],		
 		"text": "Potassium/Top5_K_txt.html"		
 	},			
@@ -4850,5 +4851,170 @@
 		],		
 		"text": "Amorphous/C_Amrph_txt.html"		
 	}			
-}				
+},
+  {				
+	"number": 801,			
+	"name": "Inorganic Carbon",			
+	"small": "C_Inorg",			
+	"img": "C_Inorg/Amrph_img.png",			
+	"kml": "C_Inorg/Amrph.kmz",			
+				
+	"A_Horizon":{			
+		"map": "C_Inorg/A_C_Inorg_m.png",		
+		"table":[		
+			{"name":"Number of samples", "value":"4,802"},	
+			{"name":"LLD", "value":"0.2 wt. %"},	
+			{"name":"Number below LLD", "value":"274"},	
+			{"name":"Minimum", "value":"<0.2 wt. %"},	
+			{"name":"5 percentile", "value":"<0.2 wt. %"},	
+			{"name":"25 percentile", "value":"10.8 wt. %"},	
+			{"name":"50 percentile", "value":"19.1 wt. %"},	
+			{"name":"75 percentile", "value":"26.9 wt. %"},	
+			{"name":"95 percentile", "value":"42.1 wt. %"},	
+			{"name":"Maximum", "value":"90.4 wt. %"},	
+			{"name":"MAD", "value":""},	
+			{"name":"Robust CV", "value":""}	
+		],		
+		"graphs":[		
+			{"name": "Histogram", "file":"C_Inorg/A_C_Inorg_g1.jpg"},	
+			{"name": "Boxplot", "file":"C_Inorg/A_C_Inorg_g2.jpg"},	
+			{"name": "Empirical cumulative distribution function", "file":"C_Inorg/A_C_Inorg_g3.jpg"}	
+		],		
+		"text": "C_Inorg/A_C_Inorg_txt.html"		
+	},			
+				
+	"C_Horizon":{			
+		"map": "C_Inorg/C_C_Inorg_m.png",		
+		"table":[		
+			{"name":"Number of samples", "value":"4,773"},	
+			{"name":"LLD", "value":"0.2 wt. %"},	
+			{"name":"Number below LLD", "value":"345"},	
+			{"name":"Minimum", "value":"<0.2 wt. %"},	
+			{"name":"5 percentile", "value":"<0.2 wt. %"},	
+			{"name":"25 percentile", "value":"8.4 wt. %"},	
+			{"name":"50 percentile", "value":"17.5 wt. %"},	
+			{"name":"75 percentile", "value":"25.2 wt. %"},	
+			{"name":"95 percentile", "value":"37.9 wt. %"},	
+			{"name":"Maximum", "value":"95.2 wt. %"},	
+			{"name":"MAD", "value":""},	
+			{"name":"Robust CV", "value":""}	
+		],		
+		"graphs":[		
+			{"name": "Histogram", "file":"C_Inorg/C_C_Inorg_g1.jpg"},	
+			{"name": "Boxplot", "file":"C_Inorg/C_C_Inorg_g2.jpg"},	
+			{"name": "Empirical cumulative distribution function", "file":"C_Inorg/C_C_Inorg_g3.jpg"}	
+		],		
+		"text": "C_Inorg/C_C_Inorg_txt.html"		
+	}			
+},
+  {				
+	"number": 802,			
+	"name": "Organic Carbon",			
+	"small": "C_Org",			
+	"img": "C_Org/C_Org_img.png",			
+	"kml": "C_Org/C_Org.kmz",			
+				
+	"A_Horizon":{			
+		"map": "C_Org/A_C_Org_m.png",		
+		"table":[		
+			{"name":"Number of samples", "value":"4,802"},	
+			{"name":"LLD", "value":"0.2 wt. %"},	
+			{"name":"Number below LLD", "value":"274"},	
+			{"name":"Minimum", "value":"<0.2 wt. %"},	
+			{"name":"5 percentile", "value":"<0.2 wt. %"},	
+			{"name":"25 percentile", "value":"10.8 wt. %"},	
+			{"name":"50 percentile", "value":"19.1 wt. %"},	
+			{"name":"75 percentile", "value":"26.9 wt. %"},	
+			{"name":"95 percentile", "value":"42.1 wt. %"},	
+			{"name":"Maximum", "value":"90.4 wt. %"},	
+			{"name":"MAD", "value":""},	
+			{"name":"Robust CV", "value":""}	
+		],		
+		"graphs":[		
+			{"name": "Histogram", "file":"C_Org/A_C_Org_g1.jpg"},	
+			{"name": "Boxplot", "file":"C_Org/A_C_Org_g2.jpg"},	
+			{"name": "Empirical cumulative distribution function", "file":"C_Org/A_C_Org_g3.jpg"}	
+		],		
+		"text": "C_Org/A_C_Org_txt.html"		
+	},			
+				
+	"C_Horizon":{			
+		"map": "C_Org/C_C_Org_m.png",		
+		"table":[		
+			{"name":"Number of samples", "value":"4,773"},	
+			{"name":"LLD", "value":"0.2 wt. %"},	
+			{"name":"Number below LLD", "value":"345"},	
+			{"name":"Minimum", "value":"<0.2 wt. %"},	
+			{"name":"5 percentile", "value":"<0.2 wt. %"},	
+			{"name":"25 percentile", "value":"8.4 wt. %"},	
+			{"name":"50 percentile", "value":"17.5 wt. %"},	
+			{"name":"75 percentile", "value":"25.2 wt. %"},	
+			{"name":"95 percentile", "value":"37.9 wt. %"},	
+			{"name":"Maximum", "value":"95.2 wt. %"},	
+			{"name":"MAD", "value":""},	
+			{"name":"Robust CV", "value":""}	
+		],		
+		"graphs":[		
+			{"name": "Histogram", "file":"C_Org/C_C_Org_g1.jpg"},	
+			{"name": "Boxplot", "file":"C_Org/C_C_Org_g2.jpg"},	
+			{"name": "Empirical cumulative distribution function", "file":"C_Org/C_C_Org_g3.jpg"}	
+		],		
+		"text": "C_Org/C_C_Org_txt.html"		
+	}			
+},
+  {				
+	"number": 803,			
+	"name": "Total Carbon",			
+	"small": "C_Tot",			
+	"img": "C_Tot/C_Tot_img.png",			
+	"kml": "C_Tot/C_Tot.kmz",			
+				
+	"A_Horizon":{			
+		"map": "C_Tot/A_C_Tot_m.png",		
+		"table":[		
+			{"name":"Number of samples", "value":"4,802"},	
+			{"name":"LLD", "value":"0.2 wt. %"},	
+			{"name":"Number below LLD", "value":"274"},	
+			{"name":"Minimum", "value":"<0.2 wt. %"},	
+			{"name":"5 percentile", "value":"<0.2 wt. %"},	
+			{"name":"25 percentile", "value":"10.8 wt. %"},	
+			{"name":"50 percentile", "value":"19.1 wt. %"},	
+			{"name":"75 percentile", "value":"26.9 wt. %"},	
+			{"name":"95 percentile", "value":"42.1 wt. %"},	
+			{"name":"Maximum", "value":"90.4 wt. %"},	
+			{"name":"MAD", "value":""},	
+			{"name":"Robust CV", "value":""}	
+		],		
+		"graphs":[		
+			{"name": "Histogram", "file":"C_Tot/A_C_Tot_g1.jpg"},	
+			{"name": "Boxplot", "file":"C_Tot/A_C_Tot_g2.jpg"},	
+			{"name": "Empirical cumulative distribution function", "file":"C_Tot/A_C_Tot_g3.jpg"}	
+		],		
+		"text": "C_Tot/A_C_Tot_txt.html"		
+	},			
+				
+	"C_Horizon":{			
+		"map": "C_Tot/C_C_Tot_m.png",		
+		"table":[		
+			{"name":"Number of samples", "value":"4,773"},	
+			{"name":"LLD", "value":"0.2 wt. %"},	
+			{"name":"Number below LLD", "value":"345"},	
+			{"name":"Minimum", "value":"<0.2 wt. %"},	
+			{"name":"5 percentile", "value":"<0.2 wt. %"},	
+			{"name":"25 percentile", "value":"8.4 wt. %"},	
+			{"name":"50 percentile", "value":"17.5 wt. %"},	
+			{"name":"75 percentile", "value":"25.2 wt. %"},	
+			{"name":"95 percentile", "value":"37.9 wt. %"},	
+			{"name":"Maximum", "value":"95.2 wt. %"},	
+			{"name":"MAD", "value":""},	
+			{"name":"Robust CV", "value":""}	
+		],		
+		"graphs":[		
+			{"name": "Histogram", "file":"C_Tot/C_C_Tot_g1.jpg"},	
+			{"name": "Boxplot", "file":"C_Tot/C_C_Tot_g2.jpg"},	
+			{"name": "Empirical cumulative distribution function", "file":"C_Tot/C_C_Tot_g3.jpg"}	
+		],		
+		"text": "C_Tot/C_C_Tot_txt.html"		
+	}			
+}			
 ]				

@@ -5120,6 +5120,59 @@ h1.maintitle {
   border-bottom: 1px solid #fafafa;
 }
 /*PERIODIC TABLE*/
+.periofic-info-box {
+  width: 500px;
+  height: 100%;
+  position: fixed;
+  background: white;
+  top: 0;
+  right: 0;
+  z-index: 90;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-left: 1px solid #EEE;
+  -webkit-transform: translate3d(100%, 0, 0);
+  -moz-transform: translate3d(100%, 0, 0);
+  -ms-transform: translate3d(100%, 0, 0);
+  -o-transform: translate3d(100%, 0, 0);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.periofic-info-box.shown {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+}
+.periofic-info-box .img {
+  width: 100%;
+  height: 9rem;
+  overflow: hidden;
+}
+.periofic-info-box .img img {
+  width: 100%;
+}
+.periofic-info-box .content {
+  padding: 1rem 3rem;
+}
+.periofic-info-box p {
+  text-align: justify;
+}
+.periofic-info-box .closeBtn {
+  width: 3rem;
+  height: 3rem;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 4.2rem;
+  position: absolute;
+}
 [mb-periodic-table] {
   width: 1000px;
   height: auto;
@@ -5153,6 +5206,9 @@ h1.maintitle {
   -o-transition: all 0.2s ease-out;
 }
 [mb-periodic-table] .element.hasData:hover {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
   -ms-transform: scale(1.5);
@@ -5163,6 +5219,48 @@ h1.maintitle {
 [mb-periodic-table] .element.hasData .small {
   color: white;
   font-weight: bold;
+}
+[mb-periodic-table] .element.carbon {
+  background: #23232a;
+  position: absolute;
+  border-radius: 50%;
+  color: white;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+[mb-periodic-table] .element.carbon:hover {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+[mb-periodic-table] .element.carbon .name {
+  margin-top: 1.9em;
+}
+[mb-periodic-table] .element.carbon:nth-child(1) {
+  bottom: 0px;
+  left: -28px;
+}
+[mb-periodic-table] .element.carbon:nth-child(2) {
+  bottom: -19px;
+  left: 22px;
+}
+[mb-periodic-table] .element.carbon:nth-child(3) {
+  bottom: 0px;
+  right: -28px;
+}
+[mb-periodic-table] .element .subElems {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: -23px;
 }
 [mb-periodic-table] .element .number {
   position: absolute;
@@ -5247,7 +5345,7 @@ h1.maintitle {
 .detail-view .main-interaction .terrainBox {
   width: 178px;
   position: absolute;
-  top: 100px;
+  top: 60px;
   right: 68px;
   z-index: 85;
   -webkit-transition: all 0.5s ease-in-out;
@@ -5334,7 +5432,7 @@ h1.maintitle {
   opacity: 0.2;
 }
 .detail-view .main-interaction .terrainBox .overlayMapMenuBox {
-  width: 280px;
+  width: 230px;
   height: auto;
   padding: 20px;
   background: #f2f2f2;
@@ -5369,17 +5467,17 @@ h1.maintitle {
   width: 200px;
   height: 100px;
   position: absolute;
-  top: 350px;
+  top: 290px;
   right: 50px;
 }
 .detail-view .main-interaction .links .box-link {
   text-transform: uppercase;
   text-align: center;
   display: block;
-  padding: 0.5em 1em 1em;
-  border: 2px solid black;
-  color: black;
-  margin-bottom: 1rem;
+  padding: 0.6em 1em;
+  border: 2px solid #F3F3F3;
+  color: #000;
+  margin-bottom: 0.3rem;
   text-decoration: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -5415,6 +5513,11 @@ h1.maintitle {
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);
+}
+.detail-view .info-box table td,
+.detail-view .info-box table th {
+  padding: 0.3625rem 0.625rem;
+  font-size: 0.775rem;
 }
 .detail-view .info-box .img {
   width: 100%;
@@ -5452,11 +5555,13 @@ h1.maintitle {
   border-bottom: 1px solid #EEE;
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
+  text-align: center;
 }
 .detail-view .info-box figure figcaption {
   margin-top: 0.7rem;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1.7rem;
+  font-weight: 300;
 }
 ul.mineralogy {
   list-style: none;

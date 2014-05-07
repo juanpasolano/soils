@@ -250,11 +250,32 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 				}
 			});
 			scope.clickit = function(n){
-				if(n){
+				if(n && n != 6){
 					$location.path('/detail/element/'+n);
-					console.log(_.findWhere(scope.elements, {number:n}));
 				}
 			};
+
+            var addCarbonListener =  function(elem){
+                elem.on('mouseenter', function(){
+                    var template = '<div class="subElems">' +
+                        '<div class="element carbon" ng-click="clickit(801)">'+
+                            '<div class="name">Inorganic Carbon</div>'+
+                        '</div>'+
+                        '<div class="element carbon" ng-click="clickit(802)">'+
+                            '<div class="name">Organic Carbon</div>'+
+                        '</div>'+
+                        '<div class="element carbon" ng-click="clickit(803)">'+
+                            '<div class="name">Total Carbon</div>'+
+                        '</div>'+
+                    '</div>';
+                    var subElem = $compile(template)(scope);
+                    angular.element(this).append(subElem);
+                });
+                elem.on('mouseleave', function(){
+                    angular.element(this).find('.subElems').remove();
+
+                })
+            };
 
 			var buildTable = function(){
 				var template = '<div class="element {{hasData ? "hasData": ""}}" ng-click="clickit({{hasData ? number: null}})">'+
@@ -265,8 +286,8 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 
 				var interpolateFn = $interpolate(template);
 				angular.forEach(scope.elements, function(v, k){
-					var html = $compile(angular.element(interpolateFn(v)))(scope);
-					element.append(html);
+					var newElem = $compile(angular.element(interpolateFn(v)))(scope);
+					element.append(newElem);
 					if(v.number == 1){
 						element.append(emptyElems(16));
 					}else if(v.number == 4 || v.number == 12){
@@ -276,6 +297,9 @@ app.directive('mbPeriodicTable', function($interpolate, $compile, $location){
 					}else if(v.number == 71){
 						element.append(emptyElems(3));
 					}
+                    if(v.number == 6){
+                        addCarbonListener(newElem);
+                    }
 				});
 				centerTable();
 			};

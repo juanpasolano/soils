@@ -1,4 +1,19 @@
 <div class="periodictable-view">
 	<h1 class="tac maintitle">CHEMISTRY</h1>
+    <div class="tac" style="height: 0;">
+        <a href="" class="button secondary" ng-click="listIsOpen = true">Choose by alphabet</a>
+    </div>
+
 	<div mb-periodic-table="elements" class="clearfix"></div>
+
+
+    <div class="periofic-info-box"ng-class="{shown: listIsOpen}">
+        <a href="" ng-click="listIsOpen = false" class="closeBtn entypo-font">&#10060;</a>
+        <div class="content">
+            <ul class="mineralogy">
+                <li ng-repeat="elem in elements | orderBy:'name'" ng-show="elem.hasData == true">
+                    <a href="#/detail/element/{{elem.number}}">{{elem.name}}</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
